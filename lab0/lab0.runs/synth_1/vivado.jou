@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4
+# SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Tue Jul 15 23:54:14 2014
+# Process ID: 12348
+# Log file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1/system_wrapper.rds
+# Journal file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl
