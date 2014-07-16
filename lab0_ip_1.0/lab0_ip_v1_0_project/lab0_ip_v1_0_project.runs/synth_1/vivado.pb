@@ -40,13 +40,13 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 339.980 ; gain = 78.727
+rStarting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.246 ; gain = 79.539
 2default:default
 ÷
 synthesizing module '%s'638*oasys2 
 lab0_ip_v1_02default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-542default:default8@Z8-638
+502default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -71,7 +71,7 @@ WC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00
 lab0_ip_v1_0_S00_AXI_inst2default:default2(
 lab0_ip_v1_0_S00_AXI2default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-1072default:default8@Z8-3491
+1012default:default8@Z8-3491
 ˆ
 synthesizing module '%s'638*oasys28
 $lab0_ip_v1_0_S00_AXI__parameterized02default:default2m
@@ -100,33 +100,21 @@ $lab0_ip_v1_0_S00_AXI__parameterized02default:default2
 12default:default2m
 WC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
 902default:default8@Z8-256
-ç
-0Net %s in module/entity %s does not have driver.3422*oasys2
-datain22default:default2 
-lab0_ip_v1_02default:default2e
-OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-942default:default8@Z8-3848
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 lab0_ip_v1_02default:default2
 22default:default2
 12default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-542default:default8@Z8-256
+502default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.070 ; gain = 102.816
+sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.070 ; gain = 102.816
+yFinished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
 2default:default
-ç
-0Net %s in module/entity %s does not have driver.3422*oasys2
-datain22default:default2 
-lab0_ip_v1_02default:default2e
-OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-942default:default8@Z8-3848
 <
 %s*synth2-
 
@@ -180,7 +168,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 531.746 ; gain = 270.492
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 531.309 ; gain = 270.602
 2default:default
 B
 %s*synth23
@@ -761,7 +749,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 537.430 ; gain = 276.176
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 537.027 ; gain = 276.320
 2default:default
 ¢
 %s*synth2í
@@ -813,15 +801,15 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:21 . Memory (MB): peak = 551.043 ; gain = 289.789
+zFinished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:21 . Memory (MB): peak = 551.043 ; gain = 289.789
+|Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:01:21 . Memory (MB): peak = 551.043 ; gain = 289.789
+{Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 D
 %s*synth25
@@ -829,7 +817,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:01:22 . Memory (MB): peak = 551.043 ; gain = 289.789
+uFinished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 ;
 %s*synth2,
@@ -858,11 +846,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:01:22 . Memory (MB): peak = 551.043 ; gain = 289.789
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:01:22 . Memory (MB): peak = 551.043 ; gain = 289.789
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 ¢
 %s*synth2í
@@ -934,23 +922,23 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|4     |LUT2   |     5|
+|4     |LUT2   |     3|
 2default:default
 ;
 %s*synth2,
-|5     |LUT3   |     6|
+|5     |LUT3   |     5|
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |    38|
+|6     |LUT4   |    80|
 2default:default
 ;
 %s*synth2,
-|7     |LUT5   |    35|
+|7     |LUT5   |     8|
 2default:default
 ;
 %s*synth2,
-|8     |LUT6   |    45|
+|8     |LUT6   |    39|
 2default:default
 ;
 %s*synth2,
@@ -970,7 +958,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|13    |OBUF   |   113|
+|13    |OBUF   |    41|
 2default:default
 ;
 %s*synth2,
@@ -995,11 +983,11 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 v
 %s*synth2g
-S|1     |top                         |                                     |   484|
+S|1     |top                         |                                     |   418|
 2default:default
 v
 %s*synth2g
-S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   197|
+S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   202|
 2default:default
 v
 %s*synth2g
@@ -1007,15 +995,15 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:01:22 . Memory (MB): peak = 551.043 ; gain = 289.789
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 k
 %s*synth2\
-HSynthesis finished with 0 errors, 0 critical warnings and 120 warnings.
+HSynthesis finished with 0 errors, 0 critical warnings and 118 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:01:22 . Memory (MB): peak = 551.043 ; gain = 289.789
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -1052,7 +1040,7 @@ L
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 162default:default2
-1122default:default2
+1102default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -1063,18 +1051,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:01:142default:default2
-00:01:262default:default2
-770.0862default:default2
-464.1842default:defaultZ17-268
+00:01:082default:default2
+00:01:202default:default2
+770.3712default:default2
+464.8052default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 770.086 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 770.371 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Wed Jul 16 23:34:15 20142default:defaultZ17-206
+Thu Jul 17 00:49:37 20142default:defaultZ17-206

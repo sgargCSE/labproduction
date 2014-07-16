@@ -47,7 +47,7 @@ int main() {
 	for (j=0;j<10;j++){
 		Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4, j+10);
 	}
-	for(j=0;j<9;j++){
+	for(j=0;j<10;j++){
 		int read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4);
 		xil_printf("fifoData = %d\r\n",read);
 	}

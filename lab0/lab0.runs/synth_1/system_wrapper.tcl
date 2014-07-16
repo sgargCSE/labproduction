@@ -17,7 +17,7 @@ set_property used_in_implementation false [get_files -all c:/Users/Shivam/Deskto
 set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/system_auto_pc_11_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_13/system_auto_pc_13_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/system_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/system.bd]

@@ -43,12 +43,8 @@ entity lab0_ip_v1_0 is
       s00_axi_rdata   : out std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
       s00_axi_rresp   : out std_logic_vector(1 downto 0);
       s00_axi_rvalid   : out std_logic;
-      s00_axi_rready   : in std_logic;
-      fifo_ptr_OUT         : out std_logic_vector(3 downto 0);
-      fifo_ptr_R_OUT         : out std_logic_vector(3 downto 0);
-      fifo_ptr_R_data_OUT    : out std_logic_vector(31 downto 0);
-      timer                  : out std_logic_vector(31 downto 0)
-   );
+      s00_axi_rready   : in std_logic
+      );
 end lab0_ip_v1_0;
 
 architecture arch_imp of lab0_ip_v1_0 is
@@ -99,9 +95,7 @@ architecture arch_imp of lab0_ip_v1_0 is
     signal newRead, newWrite : std_logic := '0';
     signal lwaddr, lraddr : std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
 begin
-    clk <= s00_axi_aclk;
-    timer <= timer32;
-    
+    clk <= s00_axi_aclk;    
     
 -- Instantiation of Axi Bus Interface S00_AXI
 lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
@@ -134,19 +128,24 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         datain0         => datain0,
         datain1         => datain1,
         datain2         => datain2,
-        datain3         => datain3,
+        datain3         => datain3,  --TODO: test 256 out
         dataout0        => dataout0,
         dataout1        => dataout1,
         dataout2        => dataout2,
-        dataout3        => dataout3, --test 256 out
+        dataout3        => dataout3,
         latched_waddr   => lwaddr,
         latched_raddr   => lraddr
    );
+   
+    --newRead/Write are only asserted for exactly one clock cycle by the slave
+    --hence can be used as signals to determine whether or not a write/read
+    --has gone down.
+
     s00_axi_wready <= newWrite;
     s00_axi_rvalid <= newRead;
     
-    datain3 <= X"00000100";
-   --Timer implementation
+   --Timer implementation, instead of snooping on the reads it simply
+   --uses the register values
     process(clk)
     begin
         if (rising_edge(clk)) then
@@ -157,14 +156,17 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
             end if;
         end if;
     end process;
-    
     datain0 <= timer32;
-    --AXI writes
+    --TODO: Fix these later, once GPIO/BRAM implemented
+    datain2 <= X"00001000";
+    datain3 <= X"00000100";
+
+    
+    --This process snoops on the W/R's of the processor, figures out
+    --which address and performs an action on fifo/bram accordingly
     process (clk)
     begin
     if (rising_edge(clk)) then
-        --newRead/Write are only asserted for exactly one clock cycle by the slave
-        
         if (newWrite = '1') then
             if (lwaddr(3 downto 2) = "01") then
                 --for the write it can be read immediately
@@ -173,28 +175,29 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
             end if;
         end if;
         
+        --With all reads our aim is to realise once the read has finished
+        --to set up the read for that particular address to point to the
+        --correct value for the next read.
         if (newRead = '1') then
+            --multiplex the read address (latched) to find which address
+            --was actually read from. This ensures that Timer/GPIO don't interfere
+            --with the FIFO/BRAM?
+
             if (lraddr(3 downto 2) = "01") then
-                fifo_ptr_R <= fifo_ptr_R + "0001";
+                --simple way to get circular fifo working, since fifo_ptr
+                --will loop once it reaches max value, hence instead of 
+                --using a comparison, just make sure that the value of fifo_ptr_R
+                --never let it go beyond the next write pointer
+                if (fifo_ptr_R /= fifo_ptr) then
+                    fifo_ptr_R <= fifo_ptr_R + "0001";
+                end if;
+            elsif (lraddr(3 downto 2) = "11") then
+                -- TODO: BRAM??
             end if;
         end if;
         
         datain1 <= fifo(conv_integer(fifo_ptr_R));
     end if;
     end process;
-    
---    process(newRead)
---    begin
---        --for the read, since it involves changing the output data
---        --a delay must be introduced of 2 cc's 
---        if (falling_edge(newRead)) then
---            fifo_ptr_R <= fifo_ptr_R + "0001";
---        end if;
---    end process;
-    -- User logic ends
-    
-    fifo_ptr_OUT         <= fifo_ptr;
-    fifo_ptr_R_OUT       <= fifo_ptr_R;
-    fifo_ptr_R_data_OUT  <= datain1;
 
 end arch_imp;
