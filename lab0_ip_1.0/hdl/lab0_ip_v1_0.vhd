@@ -43,7 +43,11 @@ entity lab0_ip_v1_0 is
       s00_axi_rdata   : out std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
       s00_axi_rresp   : out std_logic_vector(1 downto 0);
       s00_axi_rvalid   : out std_logic;
-      s00_axi_rready   : in std_logic
+      s00_axi_rready   : in std_logic;
+      fifo_ptr_OUT         : out std_logic_vector(3 downto 0);
+      fifo_ptr_R_OUT         : out std_logic_vector(3 downto 0);
+      fifo_ptr_R_data_OUT    : out std_logic_vector(31 downto 0);
+      timer                  : out std_logic_vector(31 downto 0)
    );
 end lab0_ip_v1_0;
 
@@ -77,13 +81,15 @@ architecture arch_imp of lab0_ip_v1_0 is
             S_AXI_RRESP   : out std_logic_vector(1 downto 0);
             S_AXI_RVALID   : out std_logic;
             S_AXI_RREADY   : in std_logic;
-            datain0,datain1,datain2,datain3 : in std_logic_vector(31 downto 0);
-            dataout0,dataout1,dataout2,dataout3 : out std_logic_vector(31 downto 0)
+            datain0,datain1,datain2,datain3 : in std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);       -- CUSTOM SIGNAL
+            dataout0,dataout1,dataout2,dataout3 : out std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);  -- CUSTOM SIGNAL
+            latched_waddr, latched_raddr : out std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0)         -- CUSTOM SIGNAL
         );
    end component lab0_ip_v1_0_S00_AXI;
     
-    type fifo_4a_32b is array(0 to 15) of std_logic_vector(32 downto 0);
+    type fifo_4a_32b is array(0 to 15) of std_logic_vector(31 downto 0);
     signal fifo :  fifo_4a_32b;
+    signal fifo_ptr,fifo_ptr_R : std_logic_vector(3 downto 0) := "0000";
     
     signal datain0,datain1,datain2,datain3     : std_logic_vector(31 downto 0);
     signal dataout0,dataout1,dataout2,dataout3 : std_logic_vector(31 downto 0);
@@ -91,9 +97,11 @@ architecture arch_imp of lab0_ip_v1_0 is
     signal timer32 : std_logic_vector(31 downto 0) := (others=>'0');
     
     signal newRead, newWrite : std_logic := '0';
-    
+    signal lwaddr, lraddr : std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
 begin
     clk <= s00_axi_aclk;
+    timer <= timer32;
+    
     
 -- Instantiation of Axi Bus Interface S00_AXI
 lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
@@ -111,7 +119,7 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         S_AXI_WDATA   => s00_axi_wdata,
         S_AXI_WSTRB   => s00_axi_wstrb,
         S_AXI_WVALID   => s00_axi_wvalid,
-        S_AXI_WREADY   => s00_axi_wready,
+        S_AXI_WREADY   => newWrite, --s00_axi_wready,
         S_AXI_BRESP   => s00_axi_bresp,
         S_AXI_BVALID   => s00_axi_bvalid,
         S_AXI_BREADY   => s00_axi_bready,
@@ -121,8 +129,8 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         S_AXI_ARREADY   => s00_axi_arready,
         S_AXI_RDATA   => s00_axi_rdata,
         S_AXI_RRESP   => s00_axi_rresp,
-        S_AXI_RVALID   => s00_axi_rvalid,
-        S_AXI_RREADY   => s00_axi_rready,
+        S_AXI_RVALID   => newRead, --s00_axi_rvalid,
+        S_AXI_RREADY   => s00_axi_rready, --newRead
         datain0         => datain0,
         datain1         => datain1,
         datain2         => datain2,
@@ -130,9 +138,14 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         dataout0        => dataout0,
         dataout1        => dataout1,
         dataout2        => dataout2,
-        dataout3        => dataout3
+        dataout3        => dataout3, --test 256 out
+        latched_waddr   => lwaddr,
+        latched_raddr   => lraddr
    );
-
+    s00_axi_wready <= newWrite;
+    s00_axi_rvalid <= newRead;
+    
+    datain3 <= X"00000100";
    --Timer implementation
     process(clk)
     begin
@@ -146,21 +159,42 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
     end process;
     
     datain0 <= timer32;
-
     --AXI writes
     process (clk)
     begin
     if (rising_edge(clk)) then
+        --newRead/Write are only asserted for exactly one clock cycle by the slave
+        
         if (newWrite = '1') then
-
+            if (lwaddr(3 downto 2) = "01") then
+                --for the write it can be read immediately
+                fifo(conv_integer(fifo_ptr)) <= s00_axi_wdata; --should check if the slv_reg1 can be used here
+                fifo_ptr <= fifo_ptr + "0001";
+            end if;
         end if;
         
         if (newRead = '1') then
-        
+            if (lraddr(3 downto 2) = "01") then
+                fifo_ptr_R <= fifo_ptr_R + "0001";
+            end if;
         end if;
+        
+        datain1 <= fifo(conv_integer(fifo_ptr_R));
     end if;
-    end process;    
-
+    end process;
+    
+--    process(newRead)
+--    begin
+--        --for the read, since it involves changing the output data
+--        --a delay must be introduced of 2 cc's 
+--        if (falling_edge(newRead)) then
+--            fifo_ptr_R <= fifo_ptr_R + "0001";
+--        end if;
+--    end process;
     -- User logic ends
+    
+    fifo_ptr_OUT         <= fifo_ptr;
+    fifo_ptr_R_OUT       <= fifo_ptr_R;
+    fifo_ptr_R_data_OUT  <= datain1;
 
 end arch_imp;

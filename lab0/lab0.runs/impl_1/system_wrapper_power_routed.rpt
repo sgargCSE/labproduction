@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win32) Build 353583 Mon Dec  9 17:38:55 MST 2013
-| Date             : Wed Jul 16 00:01:50 2014
+| Date             : Wed Jul 16 23:57:16 2014
 | Host             : Shivam-Win8 running 64-bit major release  (build 7600)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
 | Design           : system_wrapper
@@ -47,21 +47,22 @@ Table of Contents
 1.1 On-Chip Components
 ----------------------
 
-+-------------------------+-----------+----------+-----------+-----------------+
-| On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
-+-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.002 |        2 |       --- |             --- |
-| Slice Logic             |    <0.001 |     1372 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |      436 |     53200 |            0.81 |
-|   Register              |    <0.001 |      588 |    106400 |            0.55 |
-|   CARRY4                |    <0.001 |       14 |     13300 |            0.10 |
-|   LUT as Shift Register |    <0.001 |       62 |     17400 |            0.35 |
-|   Others                |     0.000 |      140 |       --- |             --- |
-| Signals                 |    <0.001 |      946 |       --- |             --- |
-| PS7                     |     1.318 |        1 |       --- |             --- |
-| Static Power            |     0.143 |          |           |                 |
-| Total                   |     1.464 |          |           |                 |
-+-------------------------+-----------+----------+-----------+-----------------+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.002 |        2 |       --- |             --- |
+| Slice Logic              |    <0.001 |     1509 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |      480 |     53200 |            0.90 |
+|   LUT as Distributed RAM |    <0.001 |       24 |     17400 |            0.13 |
+|   Register               |    <0.001 |      628 |    106400 |            0.59 |
+|   CARRY4                 |    <0.001 |       14 |     13300 |            0.10 |
+|   LUT as Shift Register  |    <0.001 |       62 |     17400 |            0.35 |
+|   Others                 |     0.000 |      140 |       --- |             --- |
+| Signals                  |    <0.001 |     1027 |       --- |             --- |
+| PS7                      |     1.318 |        1 |       --- |             --- |
+| Static Power             |     0.143 |          |           |                 |
+| Total                    |     1.464 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
@@ -150,6 +151,12 @@ Table of Contents
 | system_wrapper                      |     1.321 |
 |   system_i                          |     1.321 |
 |     lab0_ip_0                       |    <0.001 |
+|       U0/fifo_reg_0_15_0_5          |    <0.001 |
+|       U0/fifo_reg_0_15_12_17        |    <0.001 |
+|       U0/fifo_reg_0_15_18_23        |    <0.001 |
+|       U0/fifo_reg_0_15_24_29        |    <0.001 |
+|       U0/fifo_reg_0_15_30_31        |    <0.001 |
+|       U0/fifo_reg_0_15_6_11         |    <0.001 |
 |     processing_system7_0            |     1.319 |
 |       U0                            |     1.319 |
 |     processing_system7_0_axi_periph |     0.002 |

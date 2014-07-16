@@ -44,6 +44,7 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config -id {Labtools 27-147} -limit 4294967295
 
 start_step init_design
 set rc [catch {
@@ -58,6 +59,7 @@ set rc [catch {
   read_xdc -ref system_processing_system7_0_0 -cells U0 c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc
   read_xdc -ref system_rst_processing_system7_0_50M_0 -cells U0 c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc
   read_xdc -prop_thru_buffers -ref system_rst_processing_system7_0_50M_0 -cells U0 c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc
+  read_xdc C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/constrs_1/new/system_wrapper.xdc
   link_design -top system_wrapper -part xc7z020clg484-1
   close_msg_db -file init_design.pb
 } RESULT]

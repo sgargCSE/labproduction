@@ -39,23 +39,41 @@ void print(char *str);
 
 int main() {
 	init_platform();
-
-	print("Hello World\n\r");
-
+	xil_printf("*********** START *************\r\n");
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0xFFFFFFFF);
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 1);
 
-	int t = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	printf("cc elapsed = %d\r\n", t);
-	t = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	printf("cc elapsed = %d\r\n", t);
-	t = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	printf("cc elapsed = %d\r\n", t);
+	int j = 0;
+	for (j=0;j<10;j++){
+		Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4, j+10);
+	}
+	for(j=0;j<9;j++){
+		int read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4);
+		xil_printf("fifoData = %d\r\n",read);
+	}
+
+	//print("Hello World\n\r");
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0xFFFFFFFF);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 1);
+
+	int t0 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
+	//printf("cc elapsed = %d\r\n", t);
+	int a = 0;
+	for (j=0;j<100;j++){
+		a++;
+	}
+	int t1 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
+	//printf("cc elapsed = %d\r\n", t);
+	for (j=0;j<1000;j++){
+			a++;
+	}
+	int t2 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
+	//printf("cc elapsed = %d\r\n", t);
 
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0);
-	t = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	printf("cc elapsed = %d\r\n", t);
-	t = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	printf("cc elapsed = %d\r\n", t);
 
+	printf("start cc = %d\r\n",t0);
+	printf("100 loops = %d\r\n",t1-t0);
+	printf("1000 loops = %d\r\n",t2-t1);
 	return 0;
 }

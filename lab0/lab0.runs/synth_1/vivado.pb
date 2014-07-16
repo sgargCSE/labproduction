@@ -34,10 +34,10 @@ s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
-00:00:052default:default2
+00:00:042default:default2
 00:00:062default:default2
-324.3092default:default2
-18.1092default:defaultZ17-268
+324.1762default:default2
+18.0162default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -57,9 +57,9 @@ Starting synthesis...
 310*common2
 	Synthesis2default:default2
 xc7z0202default:defaultZ17-349
-œ
-%s*synth2Œ
-xStarting RTL Elaboration : Time (s): cpu = 00:01:00 ; elapsed = 00:01:47 . Memory (MB): peak = 361.191 ; gain = 100.637
+›
+%s*synth2‹
+wStarting RTL Elaboration : Time (s): cpu = 00:00:57 ; elapsed = 00:01:41 . Memory (MB): peak = 360.785 ; gain = 99.688
 2default:default
 ï
 synthesizing module '%s'638*oasys2"
@@ -85,13 +85,13 @@ fC:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports
 GND2default:default2
 GND2default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-7982default:default8@Z8-113
+8302default:default8@Z8-113
 Œ
 ,binding component instance '%s' to cell '%s'113*oasys2
 VCC2default:default2
 VCC2default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-8022default:default8@Z8-113
+8342default:default8@Z8-113
 ›
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2&
 system_lab0_ip_0_02default:default2™
@@ -100,12 +100,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 	lab0_ip_02default:default2&
 system_lab0_ip_0_02default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-8062default:default8@Z8-3491
+8382default:default8@Z8-3491
 “
 synthesizing module '%s'638*oasys2&
 system_lab0_ip_0_02default:default2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/synth/system_lab0_ip_0_0.vhd2default:default2
-822default:default8@Z8-638
+862default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -122,12 +122,12 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 U02default:default2 
 lab0_ip_v1_02default:default2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/synth/system_lab0_ip_0_0.vhd2default:default2
-1442default:default8@Z8-3491
+1522default:default8@Z8-3491
 ”
 synthesizing module '%s'638*oasys20
 lab0_ip_v1_0__parameterized02default:default2’
 |c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-502default:default8@Z8-638
+542default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -144,20 +144,20 @@ _
 %s*synth2O
 ;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 2default:default
-Ê
+Ë
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2(
 lab0_ip_v1_0_S00_AXI2default:default2™
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
 62default:default2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2(
 lab0_ip_v1_0_S00_AXI2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3491
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3491
 ¥
 synthesizing module '%s'638*oasys28
 $lab0_ip_v1_0_S00_AXI__parameterized02default:default2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-892default:default8@Z8-638
+902default:default8@Z8-638
 _
 %s*synth2P
 <	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -169,70 +169,38 @@ _
 ï
 default block is never used226*oasys2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-2252default:default8@Z8-226
+2282default:default8@Z8-226
 ï
 default block is never used226*oasys2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-3582default:default8@Z8-226
-¶
-Esignal '%s' is read in the process but is not in the sensitivity list614*oasys2
-datain02default:default2›
-„c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-3502default:default8@Z8-614
-¶
-Esignal '%s' is read in the process but is not in the sensitivity list614*oasys2
-datain12default:default2›
-„c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-3502default:default8@Z8-614
-¶
-Esignal '%s' is read in the process but is not in the sensitivity list614*oasys2
-datain22default:default2›
-„c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-3502default:default8@Z8-614
-¶
-Esignal '%s' is read in the process but is not in the sensitivity list614*oasys2
-datain32default:default2›
-„c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-3502default:default8@Z8-614
+3612default:default8@Z8-226
 à
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $lab0_ip_v1_0_S00_AXI__parameterized02default:default2
 12default:default2
 12default:default2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd2default:default2
-892default:default8@Z8-256
-Ë
-0Net %s in module/entity %s does not have driver.3422*oasys2
-datain12default:default20
-lab0_ip_v1_0__parameterized02default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
+902default:default8@Z8-256
 Ë
 0Net %s in module/entity %s does not have driver.3422*oasys2
 datain22default:default20
 lab0_ip_v1_0__parameterized02default:default2’
 |c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
-Ë
-0Net %s in module/entity %s does not have driver.3422*oasys2
-datain32default:default20
-lab0_ip_v1_0__parameterized02default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
+942default:default8@Z8-3848
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys20
 lab0_ip_v1_0__parameterized02default:default2
 22default:default2
 12default:default2’
 |c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-502default:default8@Z8-256
+542default:default8@Z8-256
 Î
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 system_lab0_ip_0_02default:default2
 32default:default2
 12default:default2›
 „c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/synth/system_lab0_ip_0_0.vhd2default:default2
-822default:default8@Z8-256
+862default:default8@Z8-256
 Ò
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys21
 system_processing_system7_0_02default:default2¯
@@ -241,7 +209,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 processing_system7_02default:default21
 system_processing_system7_0_02default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-8302default:default8@Z8-3491
+8662default:default8@Z8-3491
 µ
 synthesizing module '%s'638*oasys21
 system_processing_system7_0_02default:default2±
@@ -1160,24 +1128,24 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 s00_couplers_imp_156Q4UY2default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 692default:default8@Z8-638
-Ž
-Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2$
-system_auto_pc_22default:default2’
-~c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/synth/system_auto_pc_2.v2default:default2
+“
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
+system_auto_pc_112default:default2•
+€c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/synth/system_auto_pc_11.v2default:default2
 572default:default2
-auto_pc2default:default2$
-system_auto_pc_22default:default2v
+auto_pc2default:default2%
+system_auto_pc_112default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 2522default:default8@Z8-3491
-Š
-synthesizing module '%s'638*oasys2$
-system_auto_pc_22default:default2”
-~c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/synth/system_auto_pc_2.v2default:default2
+Ž
+synthesizing module '%s'638*oasys2%
+system_auto_pc_112default:default2—
+€c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/synth/system_auto_pc_11.v2default:default2
 572default:default8@Z8-638
-ñ
+ò
 synthesizing module '%s'638*oasys2F
-2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Ù
-Âc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2Ú
+Ãc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -1279,10 +1247,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-Ë
+Ì
 synthesizing module '%s'638*oasys23
-axi_protocol_converter_v2_1_b2s2default:default2Æ
-¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+axi_protocol_converter_v2_1_b2s2default:default2Ç
+°c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -1308,10 +1276,10 @@ _
 %s*synth2P
 <	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
 2default:default
-Ý
+Þ
 synthesizing module '%s'638*oasys2>
-*axi_register_slice_v2_1_axi_register_slice2default:default2Í
-¶c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+*axi_register_slice_v2_1_axi_register_slice2default:default2Î
+·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -1681,482 +1649,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-Í
+Î
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_axi2vector2default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
-602default:default8@Z8-638
-Z
-%s*synth2K
-7	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
-2default:default
-[
-%s*synth2L
-8	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-g
-%s*synth2X
-D	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
-2default:default
-i
-%s*synth2Z
-F	Parameter C_AXI_SUPPORTS_REGION_SIGNALS bound to: 0 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_AWPAYLOAD_WIDTH bound to: 66 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_WPAYLOAD_WIDTH bound to: 49 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_BPAYLOAD_WIDTH bound to: 14 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_ARPAYLOAD_WIDTH bound to: 66 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter C_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWADDR_INDEX bound to: 0 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWADDR_WIDTH bound to: 32 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWPROT_INDEX bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWPROT_WIDTH bound to: 3 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWSIZE_INDEX bound to: 35 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWSIZE_WIDTH bound to: 3 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_AWBURST_INDEX bound to: 38 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWBURST_WIDTH bound to: 2 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_AWCACHE_INDEX bound to: 40 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWCACHE_WIDTH bound to: 4 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWLEN_INDEX bound to: 44 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_AWLEN_WIDTH bound to: 4 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWLOCK_INDEX bound to: 48 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWLOCK_WIDTH bound to: 2 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_AWID_INDEX bound to: 50 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_AWID_WIDTH bound to: 12 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWQOS_INDEX bound to: 62 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_AWQOS_WIDTH bound to: 4 - type: integer 
-2default:default
-a
-%s*synth2R
->	Parameter G_AXI_AWREGION_INDEX bound to: 66 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_AWREGION_WIDTH bound to: 0 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_AWUSER_INDEX bound to: 66 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
-2default:default
-b
-%s*synth2S
-?	Parameter G_AXI_AWPAYLOAD_WIDTH bound to: 66 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARADDR_INDEX bound to: 0 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARADDR_WIDTH bound to: 32 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARPROT_INDEX bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARPROT_WIDTH bound to: 3 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARSIZE_INDEX bound to: 35 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARSIZE_WIDTH bound to: 3 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_ARBURST_INDEX bound to: 38 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARBURST_WIDTH bound to: 2 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_ARCACHE_INDEX bound to: 40 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARCACHE_WIDTH bound to: 4 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARLEN_INDEX bound to: 44 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_ARLEN_WIDTH bound to: 4 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARLOCK_INDEX bound to: 48 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARLOCK_WIDTH bound to: 2 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_ARID_INDEX bound to: 50 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_ARID_WIDTH bound to: 12 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARQOS_INDEX bound to: 62 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_ARQOS_WIDTH bound to: 4 - type: integer 
-2default:default
-a
-%s*synth2R
->	Parameter G_AXI_ARREGION_INDEX bound to: 66 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter G_AXI_ARREGION_WIDTH bound to: 0 - type: integer 
-2default:default
-_
-%s*synth2P
-<	Parameter G_AXI_ARUSER_INDEX bound to: 66 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
-2default:default
-b
-%s*synth2S
-?	Parameter G_AXI_ARPAYLOAD_WIDTH bound to: 66 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_WDATA_INDEX bound to: 0 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_WDATA_WIDTH bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_WSTRB_INDEX bound to: 32 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_WLAST_INDEX bound to: 36 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_WLAST_WIDTH bound to: 1 - type: integer 
-2default:default
-\
-%s*synth2M
-9	Parameter G_AXI_WID_INDEX bound to: 37 - type: integer 
-2default:default
-\
-%s*synth2M
-9	Parameter G_AXI_WID_WIDTH bound to: 12 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_WUSER_INDEX bound to: 49 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_WUSER_WIDTH bound to: 0 - type: integer 
-2default:default
-a
-%s*synth2R
->	Parameter G_AXI_WPAYLOAD_WIDTH bound to: 49 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_BRESP_INDEX bound to: 0 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_BRESP_WIDTH bound to: 2 - type: integer 
-2default:default
-[
-%s*synth2L
-8	Parameter G_AXI_BID_INDEX bound to: 2 - type: integer 
-2default:default
-\
-%s*synth2M
-9	Parameter G_AXI_BID_WIDTH bound to: 12 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_BUSER_INDEX bound to: 14 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_BUSER_WIDTH bound to: 0 - type: integer 
-2default:default
-a
-%s*synth2R
->	Parameter G_AXI_BPAYLOAD_WIDTH bound to: 14 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_RDATA_INDEX bound to: 0 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_RDATA_WIDTH bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_RRESP_INDEX bound to: 32 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_RRESP_WIDTH bound to: 2 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_RLAST_INDEX bound to: 34 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_RLAST_WIDTH bound to: 1 - type: integer 
-2default:default
-\
-%s*synth2M
-9	Parameter G_AXI_RID_INDEX bound to: 35 - type: integer 
-2default:default
-\
-%s*synth2M
-9	Parameter G_AXI_RID_WIDTH bound to: 12 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
-2default:default
-a
-%s*synth2R
->	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-2default:default
-ˆ
-%done synthesizing module '%s' (%s#%s)256*oasys26
-"axi_infrastructure_v1_1_axi2vector2default:default2
-92default:default2
-12default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
-602default:default8@Z8-256
-ß
-synthesizing module '%s'638*oasys2?
-+axi_register_slice_v2_1_axic_register_slice2default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-638
-Y
-%s*synth2J
-6	Parameter C_FAMILY bound to: virtex6 - type: string 
-2default:default
-Y
-%s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
-2default:default
-X
-%s*synth2I
-5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-2default:default
-›
-%done synthesizing module '%s' (%s#%s)256*oasys2?
-+axi_register_slice_v2_1_axic_register_slice2default:default2
-102default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-256
-ï
-synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-638
-Y
-%s*synth2J
-6	Parameter C_FAMILY bound to: virtex6 - type: string 
-2default:default
-Y
-%s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
-2default:default
-X
-%s*synth2I
-5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-2default:default
-«
-%done synthesizing module '%s' (%s#%s)256*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
-102default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-256
-ï
-synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-638
-Y
-%s*synth2J
-6	Parameter C_FAMILY bound to: virtex6 - type: string 
-2default:default
-Y
-%s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
-2default:default
-X
-%s*synth2I
-5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-2default:default
-«
-%done synthesizing module '%s' (%s#%s)256*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
-102default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-256
-ï
-synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-638
-Y
-%s*synth2J
-6	Parameter C_FAMILY bound to: virtex6 - type: string 
-2default:default
-Y
-%s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
-2default:default
-X
-%s*synth2I
-5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-2default:default
-«
-%done synthesizing module '%s' (%s#%s)256*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
-102default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
-622default:default8@Z8-256
-Í
-synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_vector2axi2default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+"axi_infrastructure_v1_1_axi2vector2default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -2524,22 +2020,494 @@ a
 2default:default
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys26
+"axi_infrastructure_v1_1_axi2vector2default:default2
+92default:default2
+12default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+602default:default8@Z8-256
+à
+synthesizing module '%s'638*oasys2?
++axi_register_slice_v2_1_axic_register_slice2default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
+2default:default
+œ
+%done synthesizing module '%s' (%s#%s)256*oasys2?
++axi_register_slice_v2_1_axic_register_slice2default:default2
+102default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-256
+ð
+synthesizing module '%s'638*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
+2default:default
+¬
+%done synthesizing module '%s' (%s#%s)256*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
+102default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-256
+ð
+synthesizing module '%s'638*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
+2default:default
+¬
+%done synthesizing module '%s' (%s#%s)256*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
+102default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-256
+ð
+synthesizing module '%s'638*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-638
+Y
+%s*synth2J
+6	Parameter C_FAMILY bound to: virtex6 - type: string 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
+2default:default
+¬
+%done synthesizing module '%s' (%s#%s)256*oasys2O
+;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
+102default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default8@Z8-256
+Î
+synthesizing module '%s'638*oasys26
+"axi_infrastructure_v1_1_vector2axi2default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+602default:default8@Z8-638
+Z
+%s*synth2K
+7	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+g
+%s*synth2X
+D	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
+2default:default
+i
+%s*synth2Z
+F	Parameter C_AXI_SUPPORTS_REGION_SIGNALS bound to: 0 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_AWPAYLOAD_WIDTH bound to: 66 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_WPAYLOAD_WIDTH bound to: 49 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_BPAYLOAD_WIDTH bound to: 14 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_ARPAYLOAD_WIDTH bound to: 66 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_RPAYLOAD_WIDTH bound to: 47 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWADDR_INDEX bound to: 0 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWADDR_WIDTH bound to: 32 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWPROT_INDEX bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWPROT_WIDTH bound to: 3 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWSIZE_INDEX bound to: 35 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWSIZE_WIDTH bound to: 3 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_AWBURST_INDEX bound to: 38 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWBURST_WIDTH bound to: 2 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_AWCACHE_INDEX bound to: 40 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWCACHE_WIDTH bound to: 4 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWLEN_INDEX bound to: 44 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_AWLEN_WIDTH bound to: 4 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWLOCK_INDEX bound to: 48 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWLOCK_WIDTH bound to: 2 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_AWID_INDEX bound to: 50 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_AWID_WIDTH bound to: 12 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWQOS_INDEX bound to: 62 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_AWQOS_WIDTH bound to: 4 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter G_AXI_AWREGION_INDEX bound to: 66 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_AWREGION_WIDTH bound to: 0 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_AWUSER_INDEX bound to: 66 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter G_AXI_AWPAYLOAD_WIDTH bound to: 66 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARADDR_INDEX bound to: 0 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARADDR_WIDTH bound to: 32 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARPROT_INDEX bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARPROT_WIDTH bound to: 3 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARSIZE_INDEX bound to: 35 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARSIZE_WIDTH bound to: 3 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_ARBURST_INDEX bound to: 38 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARBURST_WIDTH bound to: 2 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_ARCACHE_INDEX bound to: 40 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARCACHE_WIDTH bound to: 4 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARLEN_INDEX bound to: 44 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_ARLEN_WIDTH bound to: 4 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARLOCK_INDEX bound to: 48 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARLOCK_WIDTH bound to: 2 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_ARID_INDEX bound to: 50 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_ARID_WIDTH bound to: 12 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARQOS_INDEX bound to: 62 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_ARQOS_WIDTH bound to: 4 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter G_AXI_ARREGION_INDEX bound to: 66 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter G_AXI_ARREGION_WIDTH bound to: 0 - type: integer 
+2default:default
+_
+%s*synth2P
+<	Parameter G_AXI_ARUSER_INDEX bound to: 66 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+2default:default
+b
+%s*synth2S
+?	Parameter G_AXI_ARPAYLOAD_WIDTH bound to: 66 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_WDATA_INDEX bound to: 0 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_WDATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_WSTRB_INDEX bound to: 32 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_WLAST_INDEX bound to: 36 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_WLAST_WIDTH bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter G_AXI_WID_INDEX bound to: 37 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter G_AXI_WID_WIDTH bound to: 12 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_WUSER_INDEX bound to: 49 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter G_AXI_WPAYLOAD_WIDTH bound to: 49 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_BRESP_INDEX bound to: 0 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_BRESP_WIDTH bound to: 2 - type: integer 
+2default:default
+[
+%s*synth2L
+8	Parameter G_AXI_BID_INDEX bound to: 2 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter G_AXI_BID_WIDTH bound to: 12 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_BUSER_INDEX bound to: 14 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter G_AXI_BPAYLOAD_WIDTH bound to: 14 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_RDATA_INDEX bound to: 0 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_RDATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_RRESP_INDEX bound to: 32 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_RRESP_WIDTH bound to: 2 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_RLAST_INDEX bound to: 34 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_RLAST_WIDTH bound to: 1 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter G_AXI_RID_INDEX bound to: 35 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter G_AXI_RID_WIDTH bound to: 12 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+2default:default
+a
+%s*synth2R
+>	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
+2default:default
+Š
+%done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
 112default:default2
-12default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-™
+š
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
 122default:default2
-12default:default2Í
-¶c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2Î
+·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-à
+á
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -2549,10 +2517,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-é
+ê
 synthesizing module '%s'638*oasys2B
-.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2Õ
-¾c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2Ö
+¿c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -2570,10 +2538,10 @@ N
 %s*synth2?
 +	Parameter P_AXBURST_WRAP bound to: 2'b10 
 2default:default
-Ý
+Þ
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2Ï
-¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2Ð
+¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -2583,17 +2551,17 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-™
+š
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 132default:default2
-12default:default2Ï
-¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+12default:default2Ð
+¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
-Ý
+Þ
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2Ï
-¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2Ð
+¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -2603,24 +2571,24 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-™
+š
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 142default:default2
-12default:default2Ï
-¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+12default:default2Ð
+¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
-¥
+¦
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 152default:default2
-12default:default2Õ
-¾c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+12default:default2Ö
+¿c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
-á
+â
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -2638,28 +2606,28 @@ L
 %s*synth2=
 )	Parameter SM_DONE_WAIT bound to: 2'b11 
 2default:default
-¤
-default block is never used226*oasys2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+¥
+default block is never used226*oasys2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
-
+ž
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 162default:default2
-12default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+12default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-œ
+
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 172default:default2
-12default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+12default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
-ß
+à
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_b_channel2default:default2Ð
-¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_b_channel2default:default2Ñ
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -2705,10 +2673,10 @@ U
 %s*synth2F
 2	Parameter P_RAWIDTH bound to: 2 - type: integer 
 2default:default
-â
+ã
 synthesizing module '%s'638*oasys2?
-+axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
++axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2738,17 +2706,17 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-ž
+Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 182default:default2
-12default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ò
+ó
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -2778,24 +2746,24 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-®
+¯
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 182default:default2
-12default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-›
+œ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 192default:default2
-12default:default2Ð
-¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+12default:default2Ñ
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
-à
+á
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -2805,10 +2773,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-á
+â
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -2826,28 +2794,28 @@ G
 %s*synth28
 $	Parameter SM_DONE bound to: 2'b11 
 2default:default
-¤
-default block is never used226*oasys2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+¥
+default block is never used226*oasys2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
-
+ž
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 202default:default2
-12default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+12default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-œ
+
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 212default:default2
-12default:default2Ñ
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+12default:default2Ò
+»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
-ß
+à
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_r_channel2default:default2Ð
-¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_r_channel2default:default2Ñ
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -2881,10 +2849,10 @@ V
 %s*synth2G
 3	Parameter P_D_AWIDTH bound to: 5 - type: integer 
 2default:default
-ò
+ó
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2914,17 +2882,17 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-®
+¯
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 212default:default2
-12default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ò
+ó
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2954,24 +2922,24 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-®
+¯
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 212default:default2
-12default:default2Ò
-»c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2Ó
+¼c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-›
+œ
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 222default:default2
-12default:default2Ð
-¹c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+12default:default2Ñ
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
-í
+î
 synthesizing module '%s'638*oasys2N
-:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2Í
-¶c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2Î
+·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -3341,10 +3309,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-Ý
+Þ
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -3710,17 +3678,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-™
+š
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
 222default:default2
-12default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-ï
+ð
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3734,17 +3702,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-«
+¬
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
 222default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-ï
+ð
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3758,17 +3726,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-«
+¬
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
 222default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-ï
+ð
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3782,17 +3750,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-«
+¬
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
 222default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-ï
+ð
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3806,17 +3774,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-«
+¬
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
 222default:default2
-12default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-Ý
+Þ
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -4182,40 +4150,40 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-™
+š
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
 222default:default2
-12default:default2Å
-®c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2Æ
+¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-©
+ª
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
 222default:default2
-12default:default2Í
-¶c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2Î
+·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-‡
+ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 232default:default2
-12default:default2Æ
-¯c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+12default:default2Ç
+°c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
-­
+®
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 242default:default2
-12default:default2Ù
-Âc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2Ú
+Ãc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-Æ
-%done synthesizing module '%s' (%s#%s)256*oasys2$
-system_auto_pc_22default:default2
+Ê
+%done synthesizing module '%s' (%s#%s)256*oasys2%
+system_auto_pc_112default:default2
 252default:default2
-12default:default2”
-~c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/synth/system_auto_pc_2.v2default:default2
+12default:default2—
+€c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/synth/system_auto_pc_11.v2default:default2
 572default:default8@Z8-256
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -4239,7 +4207,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 rst_processing_system7_0_50M2default:default29
 %system_rst_processing_system7_0_50M_02default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
-9612default:default8@Z8-3491
+9972default:default8@Z8-3491
 Ì
 synthesizing module '%s'638*oasys29
 %system_rst_processing_system7_0_50M_02default:default2Á
@@ -4426,6 +4394,26 @@ R
 12default:default2Á
 ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd2default:default2
 712default:default8@Z8-256
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_02default:default2
+system2default:default2
+keep__502default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_12default:default2
+system2default:default2
+keep__522default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_22default:default2
+system2default:default2
+keep__542default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_32default:default2
+system2default:default2
+keep__562default:defaultZ8-115
 ž
 %done synthesizing module '%s' (%s#%s)256*oasys2
 system2default:default2
@@ -4442,7 +4430,7 @@ fC:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports
 292default:default8@Z8-256
 œ
 %s*synth2Œ
-xFinished RTL Elaboration : Time (s): cpu = 00:01:42 ; elapsed = 00:02:34 . Memory (MB): peak = 415.258 ; gain = 154.703
+xFinished RTL Elaboration : Time (s): cpu = 00:01:35 ; elapsed = 00:02:22 . Memory (MB): peak = 415.137 ; gain = 154.039
 2default:default
 ;
 %s*synth2,
@@ -4469,708 +4457,240 @@ l
 %s*synth2]
 I+------+------------------+-------+---------+-------+------------------+
 2default:default
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[31]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[30]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[29]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[28]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[27]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[26]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[25]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[24]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[23]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[22]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[21]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[20]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[19]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[18]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[17]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[16]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[15]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[14]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[13]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[12]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[11]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain1[10]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[9]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[8]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[7]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[6]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[5]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[4]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[3]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[2]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[1]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain1[0]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[31]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[30]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[29]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[28]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[27]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[26]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[25]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[24]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[23]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[22]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[21]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[20]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[19]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[18]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[17]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[16]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[15]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[14]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[13]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[12]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[11]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ä
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 datain2[10]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[9]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[8]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[7]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[6]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[5]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[4]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[3]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[2]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[1]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
+Ã
 'tying undriven pin %s:%s to constant 0
 3295*oasys2-
 lab0_ip_v1_0_S00_AXI_inst2default:default2
 
 datain2[0]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[31]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[30]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[29]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[28]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[27]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[26]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[25]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[24]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[23]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[22]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[21]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[20]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[19]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[18]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[17]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[16]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[15]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[14]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[13]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[12]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[11]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Ã
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-datain3[10]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[9]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[8]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[7]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[6]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[5]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[4]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[3]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[2]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[1]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
-Â
-'tying undriven pin %s:%s to constant 0
-3295*oasys2-
-lab0_ip_v1_0_S00_AXI_inst2default:default2
-
-datain3[0]2default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-992default:default8@Z8-3295
+|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
+1072default:default8@Z8-3295
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
@@ -5242,6 +4762,19 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2¿
 ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc2default:default2<
 (system_i/rst_processing_system7_0_50M/U02default:defaultZ20-847
+¨
+Parsing XDC File [%s]
+179*designutils2r
+^C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/constrs_1/new/system_wrapper.xdc2default:defaultZ20-179
+±
+Finished Parsing XDC File [%s]
+178*designutils2r
+^C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/constrs_1/new/system_wrapper.xdc2default:defaultZ20-178
+ã
+ÙImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
+233*project2r
+^C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/constrs_1/new/system_wrapper.xdc2default:default2z
+fC:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1/.Xil/system_wrapper_propImpl.xdc2default:defaultZ1-236
 ž
 Parsing XDC File [%s]
 179*designutils2h
@@ -5270,11 +4803,11 @@ J  A total of 1 instances were transformed.
 2default:defaultZ1-111
 µ
 %s*synth2¥
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:03:02 . Memory (MB): peak = 534.844 ; gain = 274.289
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:58 ; elapsed = 00:02:47 . Memory (MB): peak = 535.898 ; gain = 274.801
 2default:default
 
 %s*synth2
-yFinished RTL Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:03:02 . Memory (MB): peak = 534.844 ; gain = 274.289
+yFinished RTL Optimization : Time (s): cpu = 00:01:58 ; elapsed = 00:02:47 . Memory (MB): peak = 535.898 ; gain = 274.801
 2default:default
 ß
 merging register '%s' into '%s'3619*oasys2"
@@ -5284,22 +4817,10 @@ yFinished RTL Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:03:02 . Mem
 2222default:default8@Z8-4471
 Ë
 0Net %s in module/entity %s does not have driver.3422*oasys2
-datain12default:default20
-lab0_ip_v1_0__parameterized02default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
-Ë
-0Net %s in module/entity %s does not have driver.3422*oasys2
 datain22default:default20
 lab0_ip_v1_0__parameterized02default:default2’
 |c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
-Ë
-0Net %s in module/entity %s does not have driver.3422*oasys2
-datain32default:default20
-lab0_ip_v1_0__parameterized02default:default2’
-|c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd2default:default2
-882default:default8@Z8-3848
+942default:default8@Z8-3848
 £
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2N
@@ -5414,6 +4935,26 @@ yFinished RTL Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:03:02 . Mem
 :processing_system7_v5_3_processing_system7__parameterized02default:default2Â
 «c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10542default:default8@Z8-3848
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_22default:default2
+system2default:default2
+keep__882default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_32default:default2
+system2default:default2
+keep__902default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_42default:default2
+system2default:default2
+keep__922default:defaultZ8-115
+²
+Hbinding instance '%s' in module '%s' to reference '%s' which has no pins115*oasys2
+i_52default:default2
+system2default:default2
+keep__942default:defaultZ8-115
 <
 %s*synth2-
 
@@ -5443,7 +4984,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2¡
-ŒFinished Loading Part and Timing Information : Time (s): cpu = 00:02:31 ; elapsed = 00:03:29 . Memory (MB): peak = 567.805 ; gain = 307.250
+ŒFinished Loading Part and Timing Information : Time (s): cpu = 00:02:21 ; elapsed = 00:03:11 . Memory (MB): peak = 568.770 ; gain = 307.672
 2default:default
 B
 %s*synth23
@@ -5479,7 +5020,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 4     
+.	   2 Input      4 Bit       Adders := 6     
 2default:default
 Q
 %s*synth2B
@@ -5499,7 +5040,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 5     
+.	               32 Bit    Registers := 6     
 2default:default
 Q
 %s*synth2B
@@ -5527,7 +5068,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 8     
+.	                4 Bit    Registers := 10    
 2default:default
 Q
 %s*synth2B
@@ -5540,6 +5081,14 @@ Q
 Q
 %s*synth2B
 .	                1 Bit    Registers := 56    
+2default:default
+/
+%s*synth2 
++---RAMs : 
+2default:default
+Q
+%s*synth2B
+.	              512 Bit         RAMs := 1     
 2default:default
 0
 %s*synth2!
@@ -5652,6 +5201,34 @@ H
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+/
+%s*synth2 
++---RAMs : 
+2default:default
+Q
+%s*synth2B
+.	              512 Bit         RAMs := 1     
 2default:default
 >
 %s*synth2/
@@ -6305,9 +5882,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-<
-%s*synth2-
-Module system_auto_pc_2 
+=
+%s*synth2.
+Module system_auto_pc_11 
 2default:default
 B
 %s*synth23
@@ -6838,23 +6415,23 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
-é
+ê
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-é
+ê
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2Î
-·c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2Ï
+¸c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_11/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
 ©
 %s*synth2™
-„Finished Cross Boundary Optimization : Time (s): cpu = 00:02:32 ; elapsed = 00:03:29 . Memory (MB): peak = 574.484 ; gain = 313.930
+„Finished Cross Boundary Optimization : Time (s): cpu = 00:02:22 ; elapsed = 00:03:12 . Memory (MB): peak = 575.422 ; gain = 314.324
 2default:default
 ¢
 %s*synth2’
@@ -6864,6 +6441,36 @@ Start RAM, DSP and Shift Register Reporting
 u
 %s*synth2f
 R---------------------------------------------------------------------------------
+2default:default
+6
+%s*synth2'
+
+Distributed RAM: 
+2default:default
+¶
+%s*synth2¦
+‘+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
+2default:default
+·
+%s*synth2§
+’|Module Name        | RTL Object  | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name                               | 
+2default:default
+¶
+%s*synth2¦
+‘+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
+2default:default
+·
+%s*synth2§
+’|system_lab0_ip_0_0 | U0/fifo_reg | Implied            | 16 X 32              | RAM32M x 6   | system_wrapper/system/system_lab0_ip_0_0/ram__1 | 
+2default:default
+·
+%s*synth2§
+’+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
+
+2default:default
+Æ
+%s*synth2¶
+¡Note: Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
 2default:default
 ¦
 %s*synth2–
@@ -6876,7 +6483,7 @@ R-------------------------------------------------------------------------------
 2default:default
 ž
 %s*synth2Ž
-zFinished Area Optimization : Time (s): cpu = 00:02:34 ; elapsed = 00:03:32 . Memory (MB): peak = 588.797 ; gain = 328.242
+zFinished Area Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:03:15 . Memory (MB): peak = 589.773 ; gain = 328.676
 2default:default
 {
 %s*synth2l
@@ -6884,19 +6491,19 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ­
 %s*synth2
-ˆFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:36 ; elapsed = 00:03:34 . Memory (MB): peak = 743.691 ; gain = 483.137
+ˆFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:26 ; elapsed = 00:03:17 . Memory (MB): peak = 744.652 ; gain = 483.555
 2default:default
  
 %s*synth2
-|Finished Timing Optimization : Time (s): cpu = 00:02:37 ; elapsed = 00:03:35 . Memory (MB): peak = 751.188 ; gain = 490.633
+|Finished Timing Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:03:18 . Memory (MB): peak = 752.730 ; gain = 491.633
 2default:default
 Ÿ
 %s*synth2
-{Finished Technology Mapping : Time (s): cpu = 00:02:40 ; elapsed = 00:03:39 . Memory (MB): peak = 757.242 ; gain = 496.688
+{Finished Technology Mapping : Time (s): cpu = 00:02:30 ; elapsed = 00:03:22 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
-k
-%s*synth2\
-Hdesign system_auto_pc_2 has 4 max_fanout violations cannot be satisfied
+l
+%s*synth2]
+Idesign system_auto_pc_11 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -6904,7 +6511,7 @@ D
 2default:default
 ™
 %s*synth2‰
-uFinished IO Insertion : Time (s): cpu = 00:02:43 ; elapsed = 00:03:42 . Memory (MB): peak = 757.242 ; gain = 496.688
+uFinished IO Insertion : Time (s): cpu = 00:02:33 ; elapsed = 00:03:25 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
 ;
 %s*synth2,
@@ -6933,11 +6540,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ª
 %s*synth2š
-…Finished Renaming Generated Instances : Time (s): cpu = 00:02:43 ; elapsed = 00:03:42 . Memory (MB): peak = 757.242 ; gain = 496.688
+…Finished Renaming Generated Instances : Time (s): cpu = 00:02:33 ; elapsed = 00:03:25 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
 §
 %s*synth2—
-‚Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:44 ; elapsed = 00:03:42 . Memory (MB): peak = 757.242 ; gain = 496.688
+‚Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:34 ; elapsed = 00:03:26 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
 ¢
 %s*synth2’
@@ -7059,19 +6666,19 @@ Report Cell Usage:
 2default:default
 <
 %s*synth2-
-|5     |LUT1    |   162|
+|5     |LUT1    |   164|
 2default:default
 <
 %s*synth2-
-|6     |LUT2    |    23|
+|6     |LUT2    |    26|
 2default:default
 <
 %s*synth2-
-|7     |LUT3    |   292|
+|7     |LUT3    |   296|
 2default:default
 <
 %s*synth2-
-|8     |LUT4    |    61|
+|8     |LUT4    |    95|
 2default:default
 <
 %s*synth2-
@@ -7079,7 +6686,7 @@ Report Cell Usage:
 2default:default
 <
 %s*synth2-
-|10    |LUT6    |   169|
+|10    |LUT6    |   175|
 2default:default
 <
 %s*synth2-
@@ -7087,27 +6694,31 @@ Report Cell Usage:
 2default:default
 <
 %s*synth2-
-|12    |SRL16   |     1|
+|12    |RAM32M  |     6|
 2default:default
 <
 %s*synth2-
-|13    |SRL16E  |    22|
+|13    |SRL16   |     1|
 2default:default
 <
 %s*synth2-
-|14    |SRLC32E |    47|
+|14    |SRL16E  |    22|
 2default:default
 <
 %s*synth2-
-|15    |VCC     |     1|
+|15    |SRLC32E |    47|
 2default:default
 <
 %s*synth2-
-|16    |FDRE    |   697|
+|16    |VCC     |     1|
 2default:default
 <
 %s*synth2-
-|17    |FDSE    |    65|
+|17    |FDRE    |   737|
+2default:default
+<
+%s*synth2-
+|18    |FDSE    |    65|
 2default:default
 <
 %s*synth2-
@@ -7132,15 +6743,15 @@ q+------+------------------------------------+----------------------------------
 2default:default
 •
 %s*synth2…
-q|1     |top                                 |                                                           |  1824|
+q|1     |top                                 |                                                           |  1919|
 2default:default
 •
 %s*synth2…
-q|2     |  system_i                          |system                                                     |  1824|
+q|2     |  system_i                          |system                                                     |  1919|
 2default:default
 •
 %s*synth2…
-q|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   260|
+q|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   355|
 2default:default
 •
 %s*synth2…
@@ -7156,7 +6767,7 @@ q|6     |    processing_system7_0_axi_periph |system_processing_system7_0_axi_pe
 2default:default
 •
 %s*synth2…
-q|7     |      \s00_couplers/auto_pc         |system_auto_pc_2                                           |  1276|
+q|7     |      \s00_couplers/auto_pc         |system_auto_pc_11                                          |  1276|
 2default:default
 •
 %s*synth2…
@@ -7172,20 +6783,20 @@ q+------+------------------------------------+----------------------------------
 2default:default
 ¦
 %s*synth2–
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:44 ; elapsed = 00:03:42 . Memory (MB): peak = 757.242 ; gain = 496.688
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:34 ; elapsed = 00:03:26 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 26 warnings.
 2default:default
 £
 %s*synth2“
-Synthesis Optimization Complete : Time (s): cpu = 00:02:44 ; elapsed = 00:03:43 . Memory (MB): peak = 757.242 ; gain = 496.688
+Synthesis Optimization Complete : Time (s): cpu = 00:02:34 ; elapsed = 00:03:26 . Memory (MB): peak = 758.285 ; gain = 497.188
 2default:default
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-12default:defaultZ29-17
+72default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -7203,10 +6814,11 @@ C
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-144
-š
+ý
 !Unisim Transformation Summary:
-%s111*project2^
-J  A total of 1 instances were transformed.
+%s111*project2À
+«  A total of 7 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
   SRL16 => SRL16E: 1 instances
 2default:defaultZ1-111
 L
@@ -7216,8 +6828,8 @@ L
 À
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-2282default:default2
-2462default:default2
+2292default:default2
+1822default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -7228,18 +6840,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:03:062default:default2
-00:03:412default:default2
-943.0122default:default2
-618.7032default:defaultZ17-268
+00:02:562default:default2
+00:03:232default:default2
+943.8442default:default2
+619.6682default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 943.012 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 943.844 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Tue Jul 15 23:58:32 20142default:defaultZ17-206
+Wed Jul 16 23:43:58 20142default:defaultZ17-206

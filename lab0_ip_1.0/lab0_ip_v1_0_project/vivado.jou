@@ -38,3 +38,19 @@ ipx::create_xgui_files [ipx::current_core]
 ipx::save_core [ipx::current_core]
 update_ip_catalog -rebuild -repo_path c:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0
 ipx::unload_core {xilinx.com:user:lab0_ip:3.0}
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+ipx::open_core -upgrade true {C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/component.xml}
+set_property version {4.0} [ipx::current_core]
+set_property display_name {lab0_ip_v4_0} [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0
+ipx::unload_core {xilinx.com:user:lab0_ip:4.0}

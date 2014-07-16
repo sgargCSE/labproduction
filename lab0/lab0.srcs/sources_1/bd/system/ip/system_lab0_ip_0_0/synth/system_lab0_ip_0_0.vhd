@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: xilinx.com:user:lab0_ip:3.0
+-- IP VLNV: xilinx.com:user:lab0_ip:8.0
 -- IP Revision: 3
 
 LIBRARY ieee;
@@ -55,6 +55,8 @@ USE ieee.numeric_std.ALL;
 
 ENTITY system_lab0_ip_0_0 IS
   PORT (
+    s00_axi_aclk : IN STD_LOGIC;
+    s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
@@ -74,8 +76,10 @@ ENTITY system_lab0_ip_0_0 IS
     s00_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s00_axi_rvalid : OUT STD_LOGIC;
     s00_axi_rready : IN STD_LOGIC;
-    s00_axi_aclk : IN STD_LOGIC;
-    s00_axi_aresetn : IN STD_LOGIC
+    fifo_ptr_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    fifo_ptr_R_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    fifo_ptr_R_data_OUT : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    timer : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
   );
 END system_lab0_ip_0_0;
 
@@ -89,6 +93,8 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
       C_S00_AXI_ADDR_WIDTH : INTEGER
     );
     PORT (
+      s00_axi_aclk : IN STD_LOGIC;
+      s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
@@ -108,8 +114,10 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
       s00_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
       s00_axi_rvalid : OUT STD_LOGIC;
       s00_axi_rready : IN STD_LOGIC;
-      s00_axi_aclk : IN STD_LOGIC;
-      s00_axi_aresetn : IN STD_LOGIC
+      fifo_ptr_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+      fifo_ptr_R_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+      fifo_ptr_R_data_OUT : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+      timer : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
     );
   END COMPONENT lab0_ip_v1_0;
   ATTRIBUTE X_CORE_INFO : STRING;
@@ -117,8 +125,10 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_lab0_ip_0_0_arch : ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_lab0_ip_0_0_arch: ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=lab0_ip,x_ipVersion=3.0,x_ipCoreRevision=3,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_lab0_ip_0_0_arch: ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=lab0_ip,x_ipVersion=8.0,x_ipCoreRevision=3,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWVALID";
@@ -138,8 +148,6 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RRESP";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RVALID";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
 BEGIN
   U0 : lab0_ip_v1_0
     GENERIC MAP (
@@ -147,6 +155,8 @@ BEGIN
       C_S00_AXI_ADDR_WIDTH => 4
     )
     PORT MAP (
+      s00_axi_aclk => s00_axi_aclk,
+      s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,
       s00_axi_awprot => s00_axi_awprot,
       s00_axi_awvalid => s00_axi_awvalid,
@@ -166,7 +176,9 @@ BEGIN
       s00_axi_rresp => s00_axi_rresp,
       s00_axi_rvalid => s00_axi_rvalid,
       s00_axi_rready => s00_axi_rready,
-      s00_axi_aclk => s00_axi_aclk,
-      s00_axi_aresetn => s00_axi_aresetn
+      fifo_ptr_OUT => fifo_ptr_OUT,
+      fifo_ptr_R_OUT => fifo_ptr_R_OUT,
+      fifo_ptr_R_data_OUT => fifo_ptr_R_data_OUT,
+      timer => timer
     );
 END system_lab0_ip_0_0_arch;

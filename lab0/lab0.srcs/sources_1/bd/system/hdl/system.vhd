@@ -67,7 +67,7 @@ entity s00_couplers_imp_156Q4UY is
 end s00_couplers_imp_156Q4UY;
 
 architecture STRUCTURE of s00_couplers_imp_156Q4UY is
-  component system_auto_pc_2 is
+  component system_auto_pc_11 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -129,7 +129,7 @@ architecture STRUCTURE of s00_couplers_imp_156Q4UY is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_pc_2;
+  end component system_auto_pc_11;
   signal S_ACLK_1 : STD_LOGIC;
   signal S_ARESETN_1 : STD_LOGIC_VECTOR ( 0 to 0 );
   signal auto_pc_to_s00_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -249,7 +249,7 @@ begin
   s00_couplers_to_auto_pc_WLAST <= S_AXI_wlast;
   s00_couplers_to_auto_pc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   s00_couplers_to_auto_pc_WVALID <= S_AXI_wvalid;
-auto_pc: component system_auto_pc_2
+auto_pc: component system_auto_pc_11
     port map (
       aclk => S_ACLK_1,
       aresetn => S_ARESETN_1(0),
@@ -597,8 +597,8 @@ entity system is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC
   );
-  attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of system : entity is "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VHDL,numBlks=6,numReposBlks=4,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=0,da_axi4_cnt=1,da_ps7_cnt=1}";
+  attribute core_generation_info : string;
+  attribute core_generation_info of system : entity is "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VHDL,numBlks=6,numReposBlks=4,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=0,da_axi4_cnt=1,da_ps7_cnt=1}";
 end system;
 
 architecture STRUCTURE of system is
@@ -684,6 +684,8 @@ architecture STRUCTURE of system is
   end component system_rst_processing_system7_0_50M_0;
   component system_lab0_ip_0_0 is
   port (
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s00_axi_awvalid : in STD_LOGIC;
@@ -703,12 +705,21 @@ architecture STRUCTURE of system is
     s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_rready : in STD_LOGIC;
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC
+    fifo_ptr_OUT : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    fifo_ptr_R_OUT : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    fifo_ptr_R_data_OUT : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    timer : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component system_lab0_ip_0_0;
   signal GND_1 : STD_LOGIC;
   signal VCC_1 : STD_LOGIC;
+  signal fifo_ptr_OUT : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute MARK_DEBUG : boolean;
+  attribute MARK_DEBUG of fifo_ptr_OUT : signal is false;
+  signal fifo_ptr_R_OUT : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute MARK_DEBUG of fifo_ptr_R_OUT : signal is false;
+  signal fifo_ptr_R_data_OUT : STD_LOGIC_VECTOR ( 31 downto 0 );
+  attribute MARK_DEBUG of fifo_ptr_R_data_OUT : signal is false;
   signal processing_system7_0_DDR_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
   signal processing_system7_0_DDR_BA : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal processing_system7_0_DDR_CAS_N : STD_LOGIC;
@@ -771,26 +782,47 @@ architecture STRUCTURE of system is
   signal processing_system7_0_M_AXI_GP0_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal processing_system7_0_M_AXI_GP0_WVALID : STD_LOGIC;
   signal processing_system7_0_axi_periph_M00_AXI_ARADDR : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_ARADDR : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_ARPROT : STD_LOGIC_VECTOR ( 2 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_ARPROT : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_ARREADY : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_ARREADY : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_ARVALID : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_ARVALID : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_AWADDR : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_AWADDR : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_AWPROT : STD_LOGIC_VECTOR ( 2 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_AWPROT : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_AWREADY : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_AWREADY : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_AWVALID : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_AWVALID : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_BREADY : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_BREADY : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_BRESP : STD_LOGIC_VECTOR ( 1 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_BRESP : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_BVALID : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_BVALID : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_RDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_RDATA : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_RREADY : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_RREADY : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_RRESP : STD_LOGIC_VECTOR ( 1 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_RRESP : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_RVALID : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_RVALID : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_WDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_WDATA : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_WREADY : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_WREADY : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_WSTRB : signal is false;
   signal processing_system7_0_axi_periph_M00_AXI_WVALID : STD_LOGIC;
+  attribute MARK_DEBUG of processing_system7_0_axi_periph_M00_AXI_WVALID : signal is false;
   signal rst_processing_system7_0_50M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_processing_system7_0_50M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal timer : STD_LOGIC_VECTOR ( 31 downto 0 );
+  attribute MARK_DEBUG of timer : signal is false;
   signal NLW_rst_processing_system7_0_50M_mb_reset_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_processing_system7_0_50M_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_rst_processing_system7_0_50M_peripheral_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -805,6 +837,9 @@ VCC: unisim.vcomponents.VCC
     );
 lab0_ip_0: component system_lab0_ip_0_0
     port map (
+      fifo_ptr_OUT(3 downto 0) => fifo_ptr_OUT(3 downto 0),
+      fifo_ptr_R_OUT(3 downto 0) => fifo_ptr_R_OUT(3 downto 0),
+      fifo_ptr_R_data_OUT(31 downto 0) => fifo_ptr_R_data_OUT(31 downto 0),
       s00_axi_aclk => processing_system7_0_FCLK_CLK0,
       s00_axi_araddr(3 downto 0) => processing_system7_0_axi_periph_M00_AXI_ARADDR(3 downto 0),
       s00_axi_aresetn => rst_processing_system7_0_50M_peripheral_aresetn(0),
@@ -825,7 +860,8 @@ lab0_ip_0: component system_lab0_ip_0_0
       s00_axi_wdata(31 downto 0) => processing_system7_0_axi_periph_M00_AXI_WDATA(31 downto 0),
       s00_axi_wready => processing_system7_0_axi_periph_M00_AXI_WREADY,
       s00_axi_wstrb(3 downto 0) => processing_system7_0_axi_periph_M00_AXI_WSTRB(3 downto 0),
-      s00_axi_wvalid => processing_system7_0_axi_periph_M00_AXI_WVALID
+      s00_axi_wvalid => processing_system7_0_axi_periph_M00_AXI_WVALID,
+      timer(31 downto 0) => timer(31 downto 0)
     );
 processing_system7_0: component system_processing_system7_0_0
     port map (

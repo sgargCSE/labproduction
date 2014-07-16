@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win32) Build 353583 Mon Dec  9 17:38:55 MST 2013
-| Date         : Tue Jul 15 23:50:55 2014
+| Date         : Wed Jul 16 23:34:15 2014
 | Host         : Shivam-Win8 running 64-bit major release  (build 7600)
 | Command      : report_utilization -file lab0_ip_v1_0_utilization_synth.rpt -pb lab0_ip_v1_0_utilization_synth.pb
 | Design       : lab0_ip_v1_0
@@ -26,18 +26,20 @@ Table of Contents
 1. Slice Logic
 --------------
 
-+-------------------------+------+-------+-----------+-------+
-|        Site Type        | Used | Loced | Available | Util% |
-+-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  116 |     0 |     53200 |  0.21 |
-|   LUT as Logic          |  116 |     0 |     53200 |  0.21 |
-|   LUT as Memory         |    0 |     0 |     17400 |  0.00 |
-| Slice Registers         |  105 |     0 |    106400 |  0.09 |
-|   Register as Flip Flop |  105 |     0 |    106400 |  0.09 |
-|   Register as Latch     |    0 |     0 |    106400 |  0.00 |
-| F7 Muxes                |    0 |     0 |     26600 |  0.00 |
-| F8 Muxes                |    0 |     0 |     13300 |  0.00 |
-+-------------------------+------+-------+-----------+-------+
++----------------------------+------+-------+-----------+-------+
+|          Site Type         | Used | Loced | Available | Util% |
++----------------------------+------+-------+-----------+-------+
+| Slice LUTs*                |  180 |     0 |     53200 |  0.33 |
+|   LUT as Logic             |  156 |     0 |     53200 |  0.29 |
+|   LUT as Memory            |   24 |     0 |     17400 |  0.13 |
+|     LUT as Distributed RAM |   24 |     0 |           |       |
+|     LUT as Shift Register  |    0 |     0 |           |       |
+| Slice Registers            |  145 |     0 |    106400 |  0.13 |
+|   Register as Flip Flop    |  145 |     0 |    106400 |  0.13 |
+|   Register as Latch        |    0 |     0 |    106400 |  0.00 |
+| F7 Muxes                   |    0 |     0 |     26600 |  0.00 |
+| F8 Muxes                   |    0 |     0 |     13300 |  0.00 |
++----------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis for a more realistic count.
 
 
@@ -70,7 +72,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Loced | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   88 |     0 |       200 | 44.00 |
+| Bonded IOB                  |  160 |     0 |       200 | 80.00 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
 | IBUFGDS                     |    0 |     0 |       192 |  0.00 |
@@ -128,16 +130,18 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     |  103 |
+| FDRE     |  143 |
+| OBUF     |  113 |
 | IBUF     |   47 |
-| OBUF     |   41 |
-| LUT6     |   39 |
+| LUT6     |   45 |
+| LUT4     |   38 |
+| RAMD32   |   36 |
 | LUT5     |   35 |
-| LUT1     |   33 |
+| LUT1     |   35 |
+| RAMS32   |   12 |
 | CARRY4   |    8 |
-| LUT4     |    7 |
-| LUT3     |    2 |
-| LUT2     |    2 |
+| LUT3     |    6 |
+| LUT2     |    5 |
 | FDSE     |    2 |
 | BUFG     |    1 |
 +----------+------+

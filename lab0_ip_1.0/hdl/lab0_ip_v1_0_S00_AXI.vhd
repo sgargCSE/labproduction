@@ -81,8 +81,9 @@ entity lab0_ip_v1_0_S00_AXI is
 		-- Read ready. This signal indicates that the master can
     -- accept the read data and response information.
 		S_AXI_RREADY	: in std_logic;
-        datain0,datain1,datain2,datain3 : in std_logic_vector(31 downto 0);
-        dataout0,dataout1,dataout2,dataout3 : out std_logic_vector(31 downto 0)
+        datain0,datain1,datain2,datain3 : in std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+        dataout0,dataout1,dataout2,dataout3 : out std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+        latched_waddr, latched_raddr : out std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0)
 	);
 end lab0_ip_v1_0_S00_AXI;
 
@@ -126,6 +127,8 @@ begin
     dataout1 <= slv_reg1;
     dataout2 <= slv_reg2;
     dataout3 <= slv_reg3;
+    latched_waddr <= axi_awaddr;
+    latched_raddr <= axi_araddr;
     
 	S_AXI_AWREADY	<= axi_awready;
 	S_AXI_WREADY	<= axi_wready;
@@ -347,7 +350,7 @@ begin
 	-- and the slave is ready to accept the read address.
 	slv_reg_rden <= axi_arready and S_AXI_ARVALID and (not axi_rvalid) ;
 
-	process (slv_reg0, slv_reg1, slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
+	process (slv_reg0, slv_reg1, slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden,datain0,datain1,datain2,datain3)
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0);
 	begin
 	  if S_AXI_ARESETN = '0' then
