@@ -40,41 +40,65 @@ void print(char *str);
 int main() {
 	init_platform();
 	xil_printf("*********** START *************\r\n");
-	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0xFFFFFFFF);
-	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 1);
 
+	/*
+	 * Write values from [10 ... 1009] to the hardware fifo via
+	 * the custom IP
+	 */
 	int j = 0;
-	for (j=0;j<10;j++){
+	for (j=0;j<1000;j++){
 		Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4, j+10);
 	}
-	for(j=0;j<10;j++){
+	/*
+	 * Reads values back from FIFO via the custom IP, and checks
+	 * the value read, and makes sure it is the expected value
+	 */
+	int result = 10;
+	int mistakes = 0;
+	for(j=0;j<1000;j++){
 		int read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4);
-		xil_printf("fifoData = %d\r\n",read);
+		if (result == read){
+			result++;
+		}else{
+			//Adds to the mistakes made, and prints them out
+			mistakes++;
+			xil_printf("fifoData = %d\r\n",read);
+		}
 	}
 
-	//print("Hello World\n\r");
+	// Print of the number of mistakes the FIFO made
+	xil_printf("Mistakes = %d\r\n", mistakes);
+
+
+	//resets and starts the timer
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0xFFFFFFFF);
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 1);
 
-	int t0 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	//printf("cc elapsed = %d\r\n", t);
 	int a = 0;
+
+	int t0 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
 	for (j=0;j<100;j++){
 		a++;
 	}
 	int t1 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	//printf("cc elapsed = %d\r\n", t);
 	for (j=0;j<1000;j++){
 			a++;
 	}
 	int t2 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
-	//printf("cc elapsed = %d\r\n", t);
 
+	//stops the timer
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0);
+
+	//prints out statistics
 	printf("start cc = %d\r\n",t0);
 	printf("100 loops = %d\r\n",t1-t0);
 	printf("1000 loops = %d\r\n",t2-t1);
 
+	/*
+	 * Start of the LED setup, essentially sets the switch value to the
+	 * led value, but introduces delays and checking to demonstrate
+	 * the capabilities of the system
+	 */
 	int swValLast = 0;
 	while (1 == 1){
 		int sw_val = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+8);
@@ -85,7 +109,8 @@ int main() {
 		}
 
 		int i = 0;
-		for (i=0;i<40000000;i++){
+		/** Through trial and error, loop size > 30,000,000 are noticeable **/
+		for (i=0;i<10000000;i++){
 			//empty loop to kill time, making the process visible to the user
 			swValLast = sw_val;
 		}

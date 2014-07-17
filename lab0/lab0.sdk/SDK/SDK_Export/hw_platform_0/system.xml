@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 17 19:09:44 2014" VIVADOVERSION="2013.4">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 17 20:47:41 2014" VIVADOVERSION="2013.4">
 
   <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zynq:zed:d" DEVICE="7z020" NAME="system_imp" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
@@ -38,7 +38,7 @@
   </EXTERNALPORTS>
 
   <MODULES>
-    <MODULE FULLNAME="/lab0_ip_0" HWVERSION="11.0" INSTANCE="lab0_ip_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="lab0_ip" VLNV="xilinx.com:user:lab0_ip:11.0">
+    <MODULE FULLNAME="/lab0_ip_0" HWVERSION="12.0" INSTANCE="lab0_ip_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="lab0_ip" VLNV="xilinx.com:user:lab0_ip:12.0">
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="4"/>
@@ -220,7 +220,7 @@
         <PARAMETER NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="system_auto_pc_25"/>
+        <PARAMETER NAME="Component_Name" VALUE="system_auto_pc_27"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>

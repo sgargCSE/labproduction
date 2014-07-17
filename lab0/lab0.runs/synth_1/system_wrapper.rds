@@ -2,8 +2,8 @@
 # Vivado v2013.4
 # SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Thu Jul 17 18:55:42 2014
-# Process ID: 7532
+# Start of session at: Thu Jul 17 20:37:15 2014
+# Process ID: 21312
 # Log file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1/system_wrapper.rds
 # Journal file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -25,12 +25,12 @@ source system_wrapper.tcl
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2013.4/data/ip'.
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 324.105 ; gain = 17.984
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 323.875 ; gain = 17.910
 # set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/system_auto_pc_25_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/system_auto_pc_27_ooc.xdc]
 # set_property used_in_implementation false [get_files -all C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/system_ooc.xdc]
 # set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 # set_property is_locked true [get_files C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/system.bd]
@@ -50,7 +50,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:01:14 ; elapsed = 00:02:10 . Memory (MB): peak = 361.785 ; gain = 100.457
+Starting RTL Elaboration : Time (s): cpu = 00:01:15 ; elapsed = 00:02:03 . Memory (MB): peak = 361.875 ; gain = 100.570
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports/hdl/system_wrapper.vhd:31]
 INFO: [Synth 8-3491] module 'system' declared at 'C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:576' bound to instance 'system_i' of component 'system' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports/hdl/system_wrapper.vhd:60]
@@ -67,7 +67,7 @@ INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0__parameterized0' [c:/Users
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd:100]
+INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0.vhd:103]
 INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_lab0_ip_0_0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -290,9 +290,9 @@ INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_3_processing
 INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_0' (8#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.vhd:123]
 INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_axi_periph_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:385]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_156Q4UY' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:69]
-INFO: [Synth 8-3491] module 'system_auto_pc_25' declared at 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/synth/system_auto_pc_25.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_25' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:252]
-INFO: [Synth 8-638] synthesizing module 'system_auto_pc_25' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/synth/system_auto_pc_25.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-3491] module 'system_auto_pc_27' declared at 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_27' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'system_auto_pc_27' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -318,14 +318,14 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protoco
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_SUPPORTS_WRITE bound to: 1 - type: integer 
 	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
@@ -418,7 +418,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_sl
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -510,28 +510,28 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector' (9#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector' (9#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' (10#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -623,34 +623,34 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (11#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (12#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (11#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (12#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter P_AXBURST_FIXED bound to: 2'b00 
 	Parameter P_AXBURST_INCR bound to: 2'b01 
 	Parameter P_AXBURST_WRAP bound to: 2'b10 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (13#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (13#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (14#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (15#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (14#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (15#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (16#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (17#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-226] default block is never used [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (16#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (17#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
 	Parameter LP_RESP_EXOKAY bound to: 2'b01 
@@ -662,7 +662,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_chann
 	Parameter P_RWIDTH bound to: 2 - type: integer 
 	Parameter P_RDEPTH bound to: 4 - type: integer 
 	Parameter P_RAWIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 20 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -670,8 +670,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (18#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (18#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -679,20 +679,20 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (18#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (19#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (18#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (19#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (20#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-226] default block is never used [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (20#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter P_WIDTH bound to: 13 - type: integer 
@@ -701,7 +701,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_chann
 	Parameter P_D_WIDTH bound to: 34 - type: integer 
 	Parameter P_D_DEPTH bound to: 32 - type: integer 
 	Parameter P_D_AWIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 34 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -709,8 +709,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 13 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -718,9 +718,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (21#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -813,7 +813,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_sl
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -905,28 +905,28 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__par
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 35 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 2 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 34 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -1018,11 +1018,11 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__par
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (23#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (24#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_25' (25#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/synth/system_auto_pc_25.v:57]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (22#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (23#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (24#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_27' (25#1) [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v:57]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_156Q4UY' (26#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:69]
 INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_axi_periph_0' (27#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:385]
 INFO: [Synth 8-3491] module 'system_rst_processing_system7_0_50M_0' declared at 'c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/synth/system_rst_processing_system7_0_50M_0.vhd:56' bound to instance 'rst_processing_system7_0_50M' of component 'system_rst_processing_system7_0_50M_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:991]
@@ -1067,7 +1067,7 @@ INFO: [Synth 8-256] done synthesizing module 'system_rst_processing_system7_0_50
 INFO: [Synth 8-256] done synthesizing module 'system' (34#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd:606]
 INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (35#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports/hdl/system_wrapper.vhd:31]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 415.797 ; gain = 154.469
+Finished RTL Elaboration : Time (s): cpu = 00:01:53 ; elapsed = 00:02:44 . Memory (MB): peak = 415.848 ; gain = 154.543
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1130,11 +1130,11 @@ Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Shivam/Deskto
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1/dont_touch.xdc, line 25).
 Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.runs/synth_1/dont_touch.xdc, line 28).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:15 ; elapsed = 00:03:17 . Memory (MB): peak = 536.820 ; gain = 275.492
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:17 ; elapsed = 00:03:10 . Memory (MB): peak = 535.973 ; gain = 274.668
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:02:15 ; elapsed = 00:03:17 . Memory (MB): peak = 536.820 ; gain = 275.492
+Finished RTL Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:03:10 . Memory (MB): peak = 535.973 ; gain = 274.668
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd:222]
@@ -1172,7 +1172,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:39 ; elapsed = 00:03:42 . Memory (MB): peak = 569.590 ; gain = 308.262
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:41 ; elapsed = 00:03:34 . Memory (MB): peak = 569.742 ; gain = 308.438
 ---------------------------------------------------------------------------------
 
 
@@ -1182,12 +1182,12 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     12 Bit       Adders := 6     
-	   2 Input     10 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
 	   2 Input      9 Bit       Adders := 2     
 	   2 Input      8 Bit       Adders := 1     
 	   2 Input      6 Bit       Adders := 3     
 	   2 Input      5 Bit       Adders := 4     
-	   2 Input      4 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 4     
 	   2 Input      2 Bit       Adders := 2     
 +---Registers : 
 	               66 Bit    Registers := 4     
@@ -1195,19 +1195,20 @@ Detailed RTL Component Info :
 	               32 Bit    Registers := 6     
 	               14 Bit    Registers := 2     
 	               12 Bit    Registers := 7     
+	               10 Bit    Registers := 2     
 	                9 Bit    Registers := 2     
 	                8 Bit    Registers := 2     
 	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 4     
-	                4 Bit    Registers := 10    
+	                4 Bit    Registers := 8     
 	                3 Bit    Registers := 3     
 	                2 Bit    Registers := 11    
 	                1 Bit    Registers := 56    
 +---RAMs : 
-	              512 Bit         RAMs := 1     
+	              32K Bit         RAMs := 1     
 +---Muxes : 
 	   2 Input     47 Bit        Muxes := 1     
-	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     32 Bit        Muxes := 9     
 	   3 Input     32 Bit        Muxes := 2     
 	   2 Input     14 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 4     
@@ -1242,12 +1243,14 @@ Detailed RTL Component Info :
 Module lab0_ip_v1_0__parameterized0 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      4 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
 +---Registers : 
 	               32 Bit    Registers := 1     
-	                4 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
 +---RAMs : 
-	              512 Bit         RAMs := 1     
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
 Module system_lab0_ip_0_0 
 Detailed RTL Component Info : 
 Module processing_system7_v5_3_processing_system7__parameterized0 
@@ -1411,7 +1414,7 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 1     
 Module axi_protocol_converter_v2_1_axi_protocol_converter 
 Detailed RTL Component Info : 
-Module system_auto_pc_25 
+Module system_auto_pc_27 
 Detailed RTL Component Info : 
 Module s00_couplers_imp_156Q4UY 
 Detailed RTL Component Info : 
@@ -1552,22 +1555,22 @@ INFO: [Synth 8-3332] Sequential element (\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_
 INFO: [Synth 8-3332] Sequential element (\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] ) is unused and will be removed from module system_lab0_ip_0_0.
 INFO: [Synth 8-3332] Sequential element (\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] ) is unused and will be removed from module system_lab0_ip_0_0.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
-WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_23/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:39 ; elapsed = 00:03:42 . Memory (MB): peak = 576.254 ; gain = 314.926
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:35 . Memory (MB): peak = 575.430 ; gain = 314.125
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
-Distributed RAM: 
-+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
-|Module Name        | RTL Object  | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name                               | 
-+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
-|system_lab0_ip_0_0 | U0/fifo_reg | Implied            | 16 X 32              | RAM32M x 6   | system_wrapper/system/system_lab0_ip_0_0/ram__1 | 
-+-------------------+-------------+--------------------+----------------------+--------------+-------------------------------------------------+
+Block RAM:
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|Module Name  | RTL Object | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG      | RAMB18 | RAMB36 | Hierarchical Name   | 
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|lab0_ip_v1_0 | fifo_reg   | 1 K X 32(READ_FIRST)   | W |   | 1 K X 32(WRITE_FIRST)  |   | R | Port A and B | 0      | 1      | lab0_ip_v1_0/extram | 
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
 
 Note: Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
 ---------------------------------------------------------------------------------
@@ -1578,7 +1581,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:45 . Memory (MB): peak = 590.516 ; gain = 329.188
+Finished Area Optimization : Time (s): cpu = 00:02:44 ; elapsed = 00:03:38 . Memory (MB): peak = 591.098 ; gain = 329.793
 ---------------------------------------------------------------------------------
 
 
@@ -1591,19 +1594,20 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:44 ; elapsed = 00:03:48 . Memory (MB): peak = 745.383 ; gain = 484.055
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:46 ; elapsed = 00:03:41 . Memory (MB): peak = 745.594 ; gain = 484.289
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:45 ; elapsed = 00:03:49 . Memory (MB): peak = 753.008 ; gain = 491.680
+Finished Timing Optimization : Time (s): cpu = 00:02:47 ; elapsed = 00:03:42 . Memory (MB): peak = 753.207 ; gain = 491.902
 ---------------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \U0/fifo_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:48 ; elapsed = 00:03:52 . Memory (MB): peak = 759.000 ; gain = 497.672
+Finished Technology Mapping : Time (s): cpu = 00:02:51 ; elapsed = 00:03:46 . Memory (MB): peak = 761.457 ; gain = 500.152
 ---------------------------------------------------------------------------------
 
 
@@ -1622,14 +1626,14 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-design system_auto_pc_25 has 4 max_fanout violations cannot be satisfied
+design system_auto_pc_27 has 4 max_fanout violations cannot be satisfied
 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:51 ; elapsed = 00:03:55 . Memory (MB): peak = 759.000 ; gain = 497.672
+Finished IO Insertion : Time (s): cpu = 00:02:54 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
 ---------------------------------------------------------------------------------
 
 
@@ -1644,7 +1648,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:51 ; elapsed = 00:03:55 . Memory (MB): peak = 759.000 ; gain = 497.672
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:54 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
 ---------------------------------------------------------------------------------
 
 
@@ -1652,7 +1656,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:02:51 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:51 ; elapsed = 00:03:55 . Memory (MB): peak = 759.000 ; gain = 497.672
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:55 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -1686,68 +1690,67 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+--------+------+
-|      |Cell    |Count |
-+------+--------+------+
-|1     |BIBUF   |   130|
-|2     |BUFG    |     1|
-|3     |CARRY4  |    26|
-|4     |GND     |     1|
-|5     |LUT1    |   164|
-|6     |LUT2    |    26|
-|7     |LUT3    |   303|
-|8     |LUT4    |    89|
-|9     |LUT5    |   142|
-|10    |LUT6    |   175|
-|11    |PS7     |     1|
-|12    |RAM32M  |     6|
-|13    |SRL16   |     1|
-|14    |SRL16E  |    22|
-|15    |SRLC32E |    47|
-|16    |VCC     |     1|
-|17    |FDRE    |   745|
-|18    |FDSE    |    65|
-|19    |IBUF    |     8|
-|20    |OBUF    |     8|
-+------+--------+------+
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BIBUF      |   130|
+|2     |BUFG       |     1|
+|3     |CARRY4     |    27|
+|4     |GND        |     1|
+|5     |LUT1       |   164|
+|6     |LUT2       |    30|
+|7     |LUT3       |   305|
+|8     |LUT4       |    91|
+|9     |LUT5       |   169|
+|10    |LUT6       |   192|
+|11    |PS7        |     1|
+|12    |RAMB36E1_1 |     1|
+|13    |SRL16      |     1|
+|14    |SRL16E     |    22|
+|15    |SRLC32E    |    47|
+|16    |VCC        |     1|
+|17    |FDRE       |   725|
+|18    |FDSE       |    65|
+|19    |IBUF       |     8|
+|20    |OBUF       |     8|
++------+-----------+------+
 
 Report Instance Areas: 
 +------+------------------------------------+-----------------------------------------------------------+------+
 |      |Instance                            |Module                                                     |Cells |
 +------+------------------------------------+-----------------------------------------------------------+------+
-|1     |top                                 |                                                           |  1961|
-|2     |  system_i                          |system                                                     |  1945|
-|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   381|
+|1     |top                                 |                                                           |  1989|
+|2     |  system_i                          |system                                                     |  1973|
+|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   409|
 |4     |    processing_system7_0            |system_processing_system7_0_0                              |   221|
 |5     |      U0                            |processing_system7_v5_3_processing_system7__parameterized0 |   221|
 |6     |    processing_system7_0_axi_periph |system_processing_system7_0_axi_periph_0                   |  1276|
-|7     |      \s00_couplers/auto_pc         |system_auto_pc_25                                          |  1276|
+|7     |      \s00_couplers/auto_pc         |system_auto_pc_27                                          |  1276|
 |8     |    rst_processing_system7_0_50M    |system_rst_processing_system7_0_50M_0                      |    65|
 |9     |      U0                            |proc_sys_reset__parameterized0                             |    65|
 +------+------------------------------------+-----------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:51 ; elapsed = 00:03:55 . Memory (MB): peak = 759.000 ; gain = 497.672
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:55 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:02:51 ; elapsed = 00:03:55 . Memory (MB): peak = 759.000 ; gain = 497.672
-INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+Synthesis Optimization Complete : Time (s): cpu = 00:02:55 ; elapsed = 00:03:51 . Memory (MB): peak = 761.457 ; gain = 500.152
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s).
 INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: 
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 7 instances were transformed.
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  A total of 1 instances were transformed.
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-229 Infos, 140 Warnings, 0 Critical Warnings and 0 Errors encountered.
+230 Infos, 140 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:11 ; elapsed = 00:03:50 . Memory (MB): peak = 944.684 ; gain = 620.578
+synth_design: Time (s): cpu = 00:03:17 ; elapsed = 00:03:49 . Memory (MB): peak = 946.785 ; gain = 622.910
 # write_checkpoint system_wrapper.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 944.684 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 19:00:09 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 946.785 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 20:41:45 2014...

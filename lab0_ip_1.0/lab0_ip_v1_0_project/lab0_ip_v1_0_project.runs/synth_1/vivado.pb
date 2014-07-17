@@ -40,7 +40,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.023 ; gain = 79.559
+rStarting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:46 . Memory (MB): peak = 340.230 ; gain = 79.484
 2default:default
 ÷
 synthesizing module '%s'638*oasys2 
@@ -71,7 +71,7 @@ WC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00
 lab0_ip_v1_0_S00_AXI_inst2default:default2(
 lab0_ip_v1_0_S00_AXI2default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-1002default:default8@Z8-3491
+1032default:default8@Z8-3491
 ˆ
 synthesizing module '%s'638*oasys28
 $lab0_ip_v1_0_S00_AXI__parameterized02default:default2m
@@ -109,11 +109,11 @@ OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd
 492default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
+sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
+yFinished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
 2default:default
 <
 %s*synth2-
@@ -168,7 +168,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 531.500 ; gain = 271.035
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:22 . Memory (MB): peak = 531.328 ; gain = 270.582
 2default:default
 B
 %s*synth23
@@ -180,7 +180,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
+.	   2 Input     10 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -192,7 +192,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 4     
+.	               10 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -208,7 +212,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	              512 Bit         RAMs := 1     
+.	              32K Bit         RAMs := 1     
 2default:default
 0
 %s*synth2!
@@ -216,7 +220,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 4     
+.	   2 Input     32 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
@@ -240,7 +244,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
+.	   2 Input     10 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -252,7 +256,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 2     
+.	               10 Bit    Registers := 2     
 2default:default
 /
 %s*synth2 
@@ -260,7 +264,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	              512 Bit         RAMs := 1     
+.	              32K Bit         RAMs := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 P
 %s*synth2A
@@ -749,7 +761,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 537.184 ; gain = 276.719
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:22 . Memory (MB): peak = 537.008 ; gain = 276.262
 2default:default
 ¢
 %s*synth2í
@@ -760,30 +772,30 @@ u
 %s*synth2f
 R---------------------------------------------------------------------------------
 2default:default
-6
-%s*synth2'
-
-Distributed RAM: 
+/
+%s*synth2 
+
+Block RAM:
 2default:default
-í
-%s*synth2Ç
-n+-------------+------------+--------------------+----------------------+--------------+---------------------+
+ª
+%s*synth2´
+ñ+-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
 2default:default
-ì
-%s*synth2É
-o|Module Name  | RTL Object | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name   | 
+º
+%s*synth2¨
+ó|Module Name  | RTL Object | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG      | RAMB18 | RAMB36 | Hierarchical Name   | 
 2default:default
-í
-%s*synth2Ç
-n+-------------+------------+--------------------+----------------------+--------------+---------------------+
+ª
+%s*synth2´
+ñ+-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
 2default:default
-ì
-%s*synth2É
-o|lab0_ip_v1_0 | fifo_reg   | Implied            | 16 X 32              | RAM32M x 6   | lab0_ip_v1_0/ram__1 | 
+º
+%s*synth2¨
+ó|lab0_ip_v1_0 | fifo_reg   | 1 K X 32(READ_FIRST)   | W |   | 1 K X 32(WRITE_FIRST)  |   | R | Port A and B | 0      | 1      | lab0_ip_v1_0/extram | 
 2default:default
-ì
-%s*synth2É
-o+-------------+------------+--------------------+----------------------+--------------+---------------------+
+º
+%s*synth2¨
+ó+-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
 
 2default:default
 ∆
@@ -801,15 +813,19 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+zFinished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+|Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
+è
+◊The timing for the instance %s (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+3630*oasys2
+fifo_reg2default:defaultZ8-4480
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+{Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 D
 %s*synth25
@@ -817,7 +833,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+uFinished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 ;
 %s*synth2,
@@ -846,11 +862,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 ¢
 %s*synth2í
@@ -896,73 +912,73 @@ A
 
 Report Cell Usage: 
 2default:default
-;
-%s*synth2,
-+------+-------+------+
+=
+%s*synth2.
++------+---------+------+
 2default:default
-;
-%s*synth2,
-|      |Cell   |Count |
+=
+%s*synth2.
+|      |Cell     |Count |
 2default:default
-;
-%s*synth2,
-+------+-------+------+
+=
+%s*synth2.
++------+---------+------+
 2default:default
-;
-%s*synth2,
-|1     |BUFG   |     1|
+=
+%s*synth2.
+|1     |BUFG     |     1|
 2default:default
-;
-%s*synth2,
-|2     |CARRY4 |     8|
+=
+%s*synth2.
+|2     |CARRY4   |     9|
 2default:default
-;
-%s*synth2,
-|3     |LUT1   |    35|
+=
+%s*synth2.
+|3     |LUT1     |    35|
 2default:default
-;
-%s*synth2,
-|4     |LUT2   |     3|
+=
+%s*synth2.
+|4     |LUT2     |     8|
 2default:default
-;
-%s*synth2,
-|5     |LUT3   |     5|
+=
+%s*synth2.
+|5     |LUT3     |     6|
 2default:default
-;
-%s*synth2,
-|6     |LUT4   |    81|
+=
+%s*synth2.
+|6     |LUT4     |    11|
 2default:default
-;
-%s*synth2,
-|7     |LUT5   |    16|
+=
+%s*synth2.
+|7     |LUT5     |    64|
 2default:default
-;
-%s*synth2,
-|8     |LUT6   |    39|
+=
+%s*synth2.
+|8     |LUT6     |    70|
 2default:default
-;
-%s*synth2,
-|9     |RAM32M |     6|
+=
+%s*synth2.
+|9     |RAMB36E1 |     1|
 2default:default
-;
-%s*synth2,
-|10    |FDRE   |   151|
+=
+%s*synth2.
+|10    |FDRE     |   131|
 2default:default
-;
-%s*synth2,
-|11    |FDSE   |     2|
+=
+%s*synth2.
+|11    |FDSE     |     2|
 2default:default
-;
-%s*synth2,
-|12    |IBUF   |    55|
+=
+%s*synth2.
+|12    |IBUF     |    55|
 2default:default
-;
-%s*synth2,
-|13    |OBUF   |    49|
+=
+%s*synth2.
+|13    |OBUF     |    49|
 2default:default
-;
-%s*synth2,
-+------+-------+------+
+=
+%s*synth2.
++------+---------+------+
 2default:default
 <
 %s*synth2-
@@ -983,11 +999,11 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 v
 %s*synth2g
-S|1     |top                         |                                     |   451|
+S|1     |top                         |                                     |   442|
 2default:default
 v
 %s*synth2g
-S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   219|
+S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   220|
 2default:default
 v
 %s*synth2g
@@ -995,7 +1011,7 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 k
 %s*synth2\
@@ -1003,12 +1019,12 @@ HSynthesis finished with 0 errors, 0 critical warnings and 134 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-612default:defaultZ29-17
+562default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1026,11 +1042,10 @@ C
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-144
-ﬁ
+u
 !Unisim Transformation Summary:
-%s111*project2°
-å  A total of 6 instances were transformed.
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+%s111*project29
+%No Unisim elements were transformed.
 2default:defaultZ1-111
 L
 Releasing license: %s
@@ -1039,7 +1054,7 @@ L
 ø
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-162default:default2
+172default:default2
 1102default:default2
 02default:default2
 02default:defaultZ4-41
@@ -1051,18 +1066,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:01:132default:default2
-00:01:272default:default2
-771.0162default:default2
-464.8832default:defaultZ17-268
+00:01:092default:default2
+00:01:222default:default2
+770.9532default:default2
+465.3522default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 771.016 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 770.953 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Jul 17 13:32:03 20142default:defaultZ17-206
+Thu Jul 17 20:25:49 20142default:defaultZ17-206

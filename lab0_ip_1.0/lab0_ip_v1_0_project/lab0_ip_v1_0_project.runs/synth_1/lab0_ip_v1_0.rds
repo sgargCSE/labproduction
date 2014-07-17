@@ -2,8 +2,8 @@
 # Vivado v2013.4
 # SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Thu Jul 17 13:30:06 2014
-# Process ID: 22136
+# Start of session at: Thu Jul 17 20:23:53 2014
+# Process ID: 24000
 # Log file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1/lab0_ip_v1_0.rds
 # Journal file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -35,14 +35,14 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.023 ; gain = 79.559
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:46 . Memory (MB): peak = 340.230 ; gain = 79.484
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:100]
+INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:103]
 INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -51,14 +51,14 @@ INFO: [Synth 8-226] default block is never used [C:/Users/Shivam/Desktop/comp460
 INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' (1#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
 INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0' (2#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
 Start RTL Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
+Finished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
 ---------------------------------------------------------------------------------
 
 
@@ -82,7 +82,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 531.500 ; gain = 271.035
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:22 . Memory (MB): peak = 531.328 ; gain = 270.582
 ---------------------------------------------------------------------------------
 
 No constraint files found.
@@ -92,16 +92,17 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      4 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
 +---Registers : 
 	               32 Bit    Registers := 6     
-	                4 Bit    Registers := 4     
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 5     
 +---RAMs : 
-	              512 Bit         RAMs := 1     
+	              32K Bit         RAMs := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 5     
 	   2 Input      1 Bit        Muxes := 6     
 
 ---------------------------------------------------------------------------------
@@ -115,12 +116,14 @@ Hierarchical RTL Component report
 Module lab0_ip_v1_0 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      4 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
 +---Registers : 
 	               32 Bit    Registers := 1     
-	                4 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
 +---RAMs : 
-	              512 Bit         RAMs := 1     
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
 Module lab0_ip_v1_0_S00_AXI__parameterized0 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -251,19 +254,19 @@ WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[1]
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 537.184 ; gain = 276.719
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:22 . Memory (MB): peak = 537.008 ; gain = 276.262
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
-Distributed RAM: 
-+-------------+------------+--------------------+----------------------+--------------+---------------------+
-|Module Name  | RTL Object | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name   | 
-+-------------+------------+--------------------+----------------------+--------------+---------------------+
-|lab0_ip_v1_0 | fifo_reg   | Implied            | 16 X 32              | RAM32M x 6   | lab0_ip_v1_0/ram__1 | 
-+-------------+------------+--------------------+----------------------+--------------+---------------------+
+Block RAM:
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|Module Name  | RTL Object | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG      | RAMB18 | RAMB36 | Hierarchical Name   | 
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|lab0_ip_v1_0 | fifo_reg   | 1 K X 32(READ_FIRST)   | W |   | 1 K X 32(WRITE_FIRST)  |   | R | Port A and B | 0      | 1      | lab0_ip_v1_0/extram | 
++-------------+------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
 
 Note: Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
 ---------------------------------------------------------------------------------
@@ -275,7 +278,7 @@ Start Area Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 
@@ -284,15 +287,16 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance fifo_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 
@@ -317,7 +321,7 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 
@@ -332,7 +336,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 
@@ -340,7 +344,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -361,53 +365,52 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-------+------+
-|      |Cell   |Count |
-+------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |     8|
-|3     |LUT1   |    35|
-|4     |LUT2   |     3|
-|5     |LUT3   |     5|
-|6     |LUT4   |    81|
-|7     |LUT5   |    16|
-|8     |LUT6   |    39|
-|9     |RAM32M |     6|
-|10    |FDRE   |   151|
-|11    |FDSE   |     2|
-|12    |IBUF   |    55|
-|13    |OBUF   |    49|
-+------+-------+------+
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     9|
+|3     |LUT1     |    35|
+|4     |LUT2     |     8|
+|5     |LUT3     |     6|
+|6     |LUT4     |    11|
+|7     |LUT5     |    64|
+|8     |LUT6     |    70|
+|9     |RAMB36E1 |     1|
+|10    |FDRE     |   131|
+|11    |FDSE     |     2|
+|12    |IBUF     |    55|
+|13    |OBUF     |    49|
++------+---------+------+
 
 Report Instance Areas: 
 +------+----------------------------+-------------------------------------+------+
 |      |Instance                    |Module                               |Cells |
 +------+----------------------------+-------------------------------------+------+
-|1     |top                         |                                     |   451|
-|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   219|
+|1     |top                         |                                     |   442|
+|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   220|
 +------+----------------------------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 134 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
-INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s).
 INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: 
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 6 instances were transformed.
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-16 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+17 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:27 . Memory (MB): peak = 771.016 ; gain = 464.883
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:22 . Memory (MB): peak = 770.953 ; gain = 465.352
 # write_checkpoint lab0_ip_v1_0.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file lab0_ip_v1_0_utilization_synth.rpt -pb lab0_ip_v1_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 771.016 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 13:32:03 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 770.953 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 20:25:49 2014...

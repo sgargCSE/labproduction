@@ -82,9 +82,11 @@ architecture arch_imp of lab0_ip_v1_0 is
         );
    end component lab0_ip_v1_0_S00_AXI;
     
-    type fifo_4a_32b is array(0 to 15) of std_logic_vector(31 downto 0);
-    signal fifo :  fifo_4a_32b;
-    signal fifo_ptr,fifo_ptr_R : std_logic_vector(3 downto 0) := "0000";
+    type fifo_10a_32b is array(0 to 1023) of std_logic_vector(31 downto 0);
+    signal fifo :  fifo_10a_32b;
+    signal fifo_ptr,fifo_ptr_R : std_logic_vector(9 downto 0) := "0000000000";
+    signal valid_fifo_data :  std_logic;
+    signal fifo_data : std_logic_vector(31 downto 0);
     
     signal datain0,datain1,datain2,datain3     : std_logic_vector(31 downto 0);
     signal dataout0,dataout1,dataout2,dataout3 : std_logic_vector(31 downto 0);
@@ -93,6 +95,7 @@ architecture arch_imp of lab0_ip_v1_0 is
     
     signal newRead, newWrite : std_logic := '0';
     signal lwaddr, lraddr : std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
+    
 begin
     clk <= s00_axi_aclk;    
     
@@ -171,7 +174,7 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
             if (lwaddr(3 downto 2) = "01") then
                 --for the write it can be read immediately
                 fifo(conv_integer(fifo_ptr)) <= s00_axi_wdata; --should check if the slv_reg1 can be used here
-                fifo_ptr <= fifo_ptr + "0001";
+                fifo_ptr <= fifo_ptr + "0000000001";
             end if;
         end if;
         
@@ -188,16 +191,22 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
                 --will loop once it reaches max value, hence instead of 
                 --using a comparison, just make sure that the value of fifo_ptr_R
                 --never let it go beyond the next write pointer
-                if (fifo_ptr_R /= fifo_ptr) then
-                    fifo_ptr_R <= fifo_ptr_R + "0001";
+                if (valid_fifo_data='1') then
+                    fifo_ptr_R <= fifo_ptr_R + "0000000001";
                 end if;
             elsif (lraddr(3 downto 2) = "11") then
                 -- TODO: BRAM??
             end if;
         end if;
         
-        datain1 <= fifo(conv_integer(fifo_ptr_R));
+        fifo_data <= fifo(conv_integer(fifo_ptr_R));
     end if;
     end process;
 
+    valid_fifo_data <= '1' when fifo_ptr_R /= fifo_ptr else 
+                       '0';
+    
+    datain1 <= fifo_data when valid_fifo_data = '1' else    
+               X"FFFFFFFF"; -- Output a -1 when invalid read. (assumes no negative numbers in fifo)
+    
 end arch_imp;

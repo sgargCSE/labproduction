@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win32) Build 353583 Mon Dec  9 17:38:55 MST 2013
-| Date             : Thu Jul 17 13:35:02 2014
+| Date             : Thu Jul 17 20:28:58 2014
 | Host             : Shivam-Win8 running 64-bit major release  (build 7600)
 | Command          : report_power -file lab0_ip_v1_0_power_routed.rpt -pb lab0_ip_v1_0_power_summary_routed.pb
 | Design           : lab0_ip_v1_0
@@ -33,7 +33,6 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.120 |
 | Dynamic (W)              | 0.000 |
 | Device Static (W)        | 0.120 |
-| Total Off-Chip Power (W) | 0.000 |
 | Effective TJA (C/W)      | 11.5  |
 | Max Ambient (C)          | 83.6  |
 | Junction Temperature (C) | 26.4  |
@@ -47,21 +46,21 @@ Table of Contents
 1.1 On-Chip Components
 ----------------------
 
-+--------------------------+-----------+----------+-----------+-----------------+
-| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
-+--------------------------+-----------+----------+-----------+-----------------+
-| Slice Logic              |     0.000 |      362 |       --- |             --- |
-|   Others                 |     0.000 |        4 |       --- |             --- |
-|   Register               |     0.000 |      153 |    106400 |            0.14 |
-|   LUT as Logic           |     0.000 |      140 |     53200 |            0.26 |
-|   LUT as Distributed RAM |     0.000 |       24 |     17400 |            0.13 |
-|   BUFG                   |     0.000 |        1 |        32 |            3.12 |
-|   CARRY4                 |     0.000 |        8 |     13300 |            0.06 |
-| Signals                  |     0.000 |      274 |       --- |             --- |
-| I/O                      |     0.000 |      114 |       200 |           57.00 |
-| Static Power             |     0.120 |          |           |                 |
-| Total                    |     0.120 |          |           |                 |
-+--------------------------+-----------+----------+-----------+-----------------+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Slice Logic    |     0.000 |      318 |       --- |             --- |
+|   Others       |     0.000 |        7 |       --- |             --- |
+|   LUT as Logic |     0.000 |      153 |     53200 |            0.28 |
+|   Register     |     0.000 |      136 |    106400 |            0.12 |
+|   CARRY4       |     0.000 |        9 |     13300 |            0.06 |
+|   BUFG         |     0.000 |        1 |        32 |            3.12 |
+| Signals        |     0.000 |      291 |       --- |             --- |
+| Block RAM      |     0.000 |        1 |       140 |            0.71 |
+| I/O            |     0.000 |      114 |       200 |           57.00 |
+| Static Power   |     0.120 |          |           |                 |
+| Total          |     0.120 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
@@ -145,12 +144,6 @@ Table of Contents
 | Name                        | Power (W) |
 +-----------------------------+-----------+
 | lab0_ip_v1_0                |     0.000 |
-|   fifo_reg_0_15_0_5         |     0.000 |
-|   fifo_reg_0_15_12_17       |     0.000 |
-|   fifo_reg_0_15_18_23       |     0.000 |
-|   fifo_reg_0_15_24_29       |     0.000 |
-|   fifo_reg_0_15_30_31       |     0.000 |
-|   fifo_reg_0_15_6_11        |     0.000 |
 |   lab0_ip_v1_0_S00_AXI_inst |     0.000 |
 +-----------------------------+-----------+
 

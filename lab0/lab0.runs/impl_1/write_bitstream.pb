@@ -59,14 +59,14 @@ Q
 Releasing license: %s
 83*common2"
 Implementation2default:defaultZ17-83
-þ
+ÿ
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:422default:default2
-00:00:582default:default2
-991.7582default:default2
-40.9182default:defaultZ17-268
+00:00:482default:default2
+00:01:062default:default2
+1000.9302default:default2
+50.3712default:defaultZ17-268
 
 
 End Record
