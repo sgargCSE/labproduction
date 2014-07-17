@@ -40,13 +40,13 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.246 ; gain = 79.539
+rStarting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.023 ; gain = 79.559
 2default:default
 ÷
 synthesizing module '%s'638*oasys2 
 lab0_ip_v1_02default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-502default:default8@Z8-638
+492default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -71,7 +71,7 @@ WC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00
 lab0_ip_v1_0_S00_AXI_inst2default:default2(
 lab0_ip_v1_0_S00_AXI2default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-1012default:default8@Z8-3491
+1002default:default8@Z8-3491
 ˆ
 synthesizing module '%s'638*oasys28
 $lab0_ip_v1_0_S00_AXI__parameterized02default:default2m
@@ -106,14 +106,14 @@ WC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00
 22default:default2
 12default:default2e
 OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd2default:default2
-502default:default8@Z8-256
+492default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
+sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
+yFinished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
 2default:default
 <
 %s*synth2-
@@ -168,7 +168,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 531.309 ; gain = 270.602
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 531.500 ; gain = 271.035
 2default:default
 B
 %s*synth23
@@ -542,38 +542,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
 +\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[8] 2default:default2 
 lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[7] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[6] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[5] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[4] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[3] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[2] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[1] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[0] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
 ¬
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
 ,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[31] 2default:default2 
@@ -702,6 +670,38 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
 +\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[0] 2default:default2 
 lab0_ip_v1_02default:defaultZ8-3332
+√
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2A
+-\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+√
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2A
+-\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[31] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[30] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[29] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[28] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -749,7 +749,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 537.027 ; gain = 276.320
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 537.184 ; gain = 276.719
 2default:default
 ¢
 %s*synth2í
@@ -801,15 +801,15 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
+zFinished Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
+|Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+{Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 D
 %s*synth25
@@ -817,7 +817,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+uFinished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 ;
 %s*synth2,
@@ -846,11 +846,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 ¢
 %s*synth2í
@@ -930,11 +930,11 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|6     |LUT4   |    80|
+|6     |LUT4   |    81|
 2default:default
 ;
 %s*synth2,
-|7     |LUT5   |     8|
+|7     |LUT5   |    16|
 2default:default
 ;
 %s*synth2,
@@ -946,7 +946,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|10    |FDRE   |   143|
+|10    |FDRE   |   151|
 2default:default
 ;
 %s*synth2,
@@ -954,11 +954,11 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-|12    |IBUF   |    47|
+|12    |IBUF   |    55|
 2default:default
 ;
 %s*synth2,
-|13    |OBUF   |    41|
+|13    |OBUF   |    49|
 2default:default
 ;
 %s*synth2,
@@ -983,11 +983,11 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 v
 %s*synth2g
-S|1     |top                         |                                     |   418|
+S|1     |top                         |                                     |   451|
 2default:default
 v
 %s*synth2g
-S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   202|
+S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   219|
 2default:default
 v
 %s*synth2g
@@ -995,20 +995,20 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 k
 %s*synth2\
-HSynthesis finished with 0 errors, 0 critical warnings and 118 warnings.
+HSynthesis finished with 0 errors, 0 critical warnings and 134 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-532default:defaultZ29-17
+612default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1051,18 +1051,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:01:082default:default2
-00:01:202default:default2
-770.3712default:default2
-464.8052default:defaultZ17-268
+00:01:132default:default2
+00:01:272default:default2
+771.0162default:default2
+464.8832default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 770.371 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 771.016 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Jul 17 00:49:37 20142default:defaultZ17-206
+Thu Jul 17 13:32:03 20142default:defaultZ17-206

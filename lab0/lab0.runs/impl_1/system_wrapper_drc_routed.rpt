@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win32) Build 353583 Mon Dec  9 17:38:55 MST 2013
-| Date         : Thu Jul 17 01:00:03 2014
+| Date         : Thu Jul 17 19:03:14 2014
 | Host         : Shivam-Win8 running 64-bit major release  (build 7600)
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -119,7 +119,7 @@ REPORT SUMMARY
                      Delay constraint missing on IO port
                      PS7 block required
            Max violations: <unlimited>
-         Violations found: 154
+         Violations found: 156
 
 2. REPORT DETAILS
 -----------------
@@ -894,6 +894,16 @@ Related violations: <none>
 XDCM-1#21 Warning
 Delay constraint missing on IO port  
 The port 'FIXED_IO_ps_srstb' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#22 Warning
+Delay constraint missing on IO port  
+The port 'led_out[0], led_out[1], led_out[2], led_out[3], led_out[4], led_out[5], led_out[6], led_out[7]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#23 Warning
+Delay constraint missing on IO port  
+The port 'sw_in[0], sw_in[1], sw_in[2], sw_in[3], sw_in[4], sw_in[5], sw_in[6], sw_in[7]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
 
 RTSTAT-10#1 Advisory

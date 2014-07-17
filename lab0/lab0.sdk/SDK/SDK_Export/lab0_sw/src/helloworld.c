@@ -71,9 +71,25 @@ int main() {
 	//printf("cc elapsed = %d\r\n", t);
 
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0);
-
 	printf("start cc = %d\r\n",t0);
 	printf("100 loops = %d\r\n",t1-t0);
 	printf("1000 loops = %d\r\n",t2-t1);
+
+	int swValLast = 0;
+	while (1 == 1){
+		int sw_val = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+8);
+
+		//saves a AXI write when not needed
+		if (sw_val == swValLast){
+			Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+8, sw_val);
+		}
+
+		int i = 0;
+		for (i=0;i<40000000;i++){
+			//empty loop to kill time, making the process visible to the user
+			swValLast = sw_val;
+		}
+	}
+
 	return 0;
 }

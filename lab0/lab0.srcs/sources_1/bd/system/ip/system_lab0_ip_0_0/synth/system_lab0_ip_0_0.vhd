@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: xilinx.com:user:lab0_ip:9.0
+-- IP VLNV: xilinx.com:user:lab0_ip:11.0
 -- IP Revision: 3
 
 LIBRARY ieee;
@@ -55,6 +55,8 @@ USE ieee.numeric_std.ALL;
 
 ENTITY system_lab0_ip_0_0 IS
   PORT (
+    led_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    sw_in : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
     s00_axi_aclk : IN STD_LOGIC;
     s00_axi_aresetn : IN STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -89,6 +91,8 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
       C_S00_AXI_ADDR_WIDTH : INTEGER
     );
     PORT (
+      led_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+      sw_in : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
       s00_axi_aclk : IN STD_LOGIC;
       s00_axi_aresetn : IN STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -117,7 +121,7 @@ ARCHITECTURE system_lab0_ip_0_0_arch OF system_lab0_ip_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF system_lab0_ip_0_0_arch : ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF system_lab0_ip_0_0_arch: ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=lab0_ip,x_ipVersion=9.0,x_ipCoreRevision=3,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF system_lab0_ip_0_0_arch: ARCHITECTURE IS "system_lab0_ip_0_0,lab0_ip_v1_0,{x_ipProduct=Vivado 2013.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=lab0_ip,x_ipVersion=11.0,x_ipCoreRevision=3,x_ipLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
@@ -147,6 +151,8 @@ BEGIN
       C_S00_AXI_ADDR_WIDTH => 4
     )
     PORT MAP (
+      led_out => led_out,
+      sw_in => sw_in,
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_aresetn => s00_axi_aresetn,
       s00_axi_awaddr => s00_axi_awaddr,

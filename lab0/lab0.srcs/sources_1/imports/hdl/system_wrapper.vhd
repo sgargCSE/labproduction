@@ -22,7 +22,9 @@ entity system_wrapper is
     FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    led_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    sw_in : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
 end system_wrapper;
 
@@ -49,7 +51,9 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    led_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    sw_in : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   end component system;
 begin
@@ -75,6 +79,8 @@ system_i: component system
       FIXED_IO_mio(53 downto 0) => FIXED_IO_mio(53 downto 0),
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
-      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb
+      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      led_out(7 downto 0) => led_out(7 downto 0),
+      sw_in(7 downto 0) => sw_in(7 downto 0)
     );
 end STRUCTURE;

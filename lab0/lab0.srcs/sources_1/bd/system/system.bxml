@@ -7,35 +7,28 @@
     <Generation Name="SIMULATION" State="STALE"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\system_processing_system7_0_0\system_processing_system7_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1405479243" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1405566239" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\system_lab0_ip_0_0\system_lab0_ip_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1405522285" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1405568157" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\system_processing_system7_0_axi_periph_0\system_processing_system7_0_axi_periph_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="false" Timestamp="1405479243" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1405566240" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\system_rst_processing_system7_0_50M_0\system_rst_processing_system7_0_50M_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1405479243" IsTrackable="true"/>
-        <Library Name="work"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip\system_auto_pc_3\system_auto_pc_3.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="false" Timestamp="1405437529" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1405566240" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -47,7 +40,14 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\system_auto_pc_13\system_auto_pc_13.xci" Type="IP">
+      <File Name="ip\system_auto_pc_23\system_auto_pc_23.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1405571112" IsTrackable="true"/>
+        <Library Name="work"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\system_auto_pc_25\system_auto_pc_25.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>

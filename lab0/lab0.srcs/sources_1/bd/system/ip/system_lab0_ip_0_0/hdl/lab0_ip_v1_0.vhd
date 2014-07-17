@@ -16,34 +16,33 @@ entity lab0_ip_v1_0 is
       C_S00_AXI_ADDR_WIDTH   : integer   := 4
    );
    port (
-      -- Users to add ports here
-
-      -- User ports ends
-      -- Do not modify the ports beyond this line
-
-
-      -- Ports of Axi Slave Bus Interface S00_AXI
-      s00_axi_aclk   : in std_logic;
-      s00_axi_aresetn   : in std_logic;
-      s00_axi_awaddr   : in std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
-      s00_axi_awprot   : in std_logic_vector(2 downto 0);
-      s00_axi_awvalid   : in std_logic;
-      s00_axi_awready   : out std_logic;
-      s00_axi_wdata   : in std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
-      s00_axi_wstrb   : in std_logic_vector((C_S00_AXI_DATA_WIDTH/8)-1 downto 0);
-      s00_axi_wvalid   : in std_logic;
-      s00_axi_wready   : out std_logic;
-      s00_axi_bresp   : out std_logic_vector(1 downto 0);
-      s00_axi_bvalid   : out std_logic;
-      s00_axi_bready   : in std_logic;
-      s00_axi_araddr   : in std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
-      s00_axi_arprot   : in std_logic_vector(2 downto 0);
-      s00_axi_arvalid   : in std_logic;
-      s00_axi_arready   : out std_logic;
-      s00_axi_rdata   : out std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
-      s00_axi_rresp   : out std_logic_vector(1 downto 0);
-      s00_axi_rvalid   : out std_logic;
-      s00_axi_rready   : in std_logic
+        -- Users to add ports here
+        led_out          : out std_logic_vector(7 downto 0);
+        sw_in            : in std_logic_vector(7 downto 0);
+        -- User ports ends
+        -- Do not modify the ports beyond this line
+        -- Ports of Axi Slave Bus Interface S00_AXI
+        s00_axi_aclk     : in std_logic;
+        s00_axi_aresetn  : in std_logic;
+        s00_axi_awaddr   : in std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
+        s00_axi_awprot   : in std_logic_vector(2 downto 0);
+        s00_axi_awvalid  : in std_logic;
+        s00_axi_awready  : out std_logic;
+        s00_axi_wdata    : in std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
+        s00_axi_wstrb    : in std_logic_vector((C_S00_AXI_DATA_WIDTH/8)-1 downto 0);
+        s00_axi_wvalid   : in std_logic;
+        s00_axi_wready   : out std_logic;
+        s00_axi_bresp    : out std_logic_vector(1 downto 0);
+        s00_axi_bvalid   : out std_logic;
+        s00_axi_bready   : in std_logic;
+        s00_axi_araddr   : in std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
+        s00_axi_arprot   : in std_logic_vector(2 downto 0);
+        s00_axi_arvalid  : in std_logic;
+        s00_axi_arready  : out std_logic;
+        s00_axi_rdata    : out std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
+        s00_axi_rresp    : out std_logic_vector(1 downto 0);
+        s00_axi_rvalid   : out std_logic;
+        s00_axi_rready   : in std_logic
       );
 end lab0_ip_v1_0;
 
@@ -130,7 +129,7 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         datain2         => datain2,
         datain3         => datain3,  --TODO: test 256 out
         dataout0        => dataout0,
-        dataout1        => dataout1,
+        dataout1        => dataout1,  -- unused
         dataout2        => dataout2,
         dataout3        => dataout3,
         latched_waddr   => lwaddr,
@@ -158,9 +157,10 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
     end process;
     datain0 <= timer32;
     --TODO: Fix these later, once GPIO/BRAM implemented
-    datain2 <= X"00001000";
     datain3 <= X"00000100";
-
+    
+    led_out <= dataout2(7 downto 0);
+    datain2 <= X"000000" & sw_in;
     
     --This process snoops on the W/R's of the processor, figures out
     --which address and performs an action on fifo/bram accordingly

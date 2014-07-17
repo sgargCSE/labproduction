@@ -2,8 +2,8 @@
 # Vivado v2013.4
 # SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Thu Jul 17 00:47:47 2014
-# Process ID: 21052
+# Start of session at: Thu Jul 17 13:30:06 2014
+# Process ID: 22136
 # Log file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1/lab0_ip_v1_0.rds
 # Journal file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -35,30 +35,30 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.246 ; gain = 79.539
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:42 . Memory (MB): peak = 340.023 ; gain = 79.559
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:101]
+INFO: [Synth 8-3491] module 'lab0_ip_v1_0_S00_AXI' declared at 'C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:6' bound to instance 'lab0_ip_v1_0_S00_AXI_inst' of component 'lab0_ip_v1_0_S00_AXI' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:100]
 INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 INFO: [Synth 8-226] default block is never used [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:228]
 INFO: [Synth 8-226] default block is never used [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:361]
 INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' (1#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
-INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0' (2#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0' (2#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
 Start RTL Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:44 . Memory (MB): peak = 364.352 ; gain = 103.645
+Finished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:44 . Memory (MB): peak = 364.047 ; gain = 103.582
 ---------------------------------------------------------------------------------
 
 
@@ -82,7 +82,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 531.309 ; gain = 270.602
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 531.500 ; gain = 271.035
 ---------------------------------------------------------------------------------
 
 No constraint files found.
@@ -199,14 +199,6 @@ WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[10] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[9] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[8] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[7] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[6] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[5] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[4] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[3] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[2] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[31] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[30] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[29] ) is unused and will be removed from module lab0_ip_v1_0.
@@ -239,6 +231,14 @@ WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[2] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[31] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[30] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[29] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[28] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] ) is unused and will be removed from module lab0_ip_v1_0.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_awaddr[1]
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_awaddr[0]
@@ -251,7 +251,7 @@ WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[1]
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:18 . Memory (MB): peak = 537.027 ; gain = 276.320
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:20 . Memory (MB): peak = 537.184 ; gain = 276.719
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -275,7 +275,7 @@ Start Area Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 
@@ -284,7 +284,7 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 
@@ -292,7 +292,7 @@ Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:18 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 
@@ -317,7 +317,7 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 
@@ -332,7 +332,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 
@@ -340,7 +340,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -369,30 +369,30 @@ Report Cell Usage:
 |3     |LUT1   |    35|
 |4     |LUT2   |     3|
 |5     |LUT3   |     5|
-|6     |LUT4   |    80|
-|7     |LUT5   |     8|
+|6     |LUT4   |    81|
+|7     |LUT5   |    16|
 |8     |LUT6   |    39|
 |9     |RAM32M |     6|
-|10    |FDRE   |   143|
+|10    |FDRE   |   151|
 |11    |FDSE   |     2|
-|12    |IBUF   |    47|
-|13    |OBUF   |    41|
+|12    |IBUF   |    55|
+|13    |OBUF   |    49|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------------------+-------------------------------------+------+
 |      |Instance                    |Module                               |Cells |
 +------+----------------------------+-------------------------------------+------+
-|1     |top                         |                                     |   418|
-|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   202|
+|1     |top                         |                                     |   451|
+|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   219|
 +------+----------------------------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
 ---------------------------------------------------------------------------------
 
-Synthesis finished with 0 errors, 0 critical warnings and 118 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 550.281 ; gain = 289.574
-INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+Synthesis finished with 0 errors, 0 critical warnings and 134 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 550.848 ; gain = 290.383
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
@@ -405,9 +405,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 16 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 770.371 ; gain = 464.805
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:27 . Memory (MB): peak = 771.016 ; gain = 464.883
 # write_checkpoint lab0_ip_v1_0.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file lab0_ip_v1_0_utilization_synth.rpt -pb lab0_ip_v1_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 770.371 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 00:49:37 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 771.016 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 13:32:03 2014...
