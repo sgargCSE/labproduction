@@ -36,8 +36,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 add_files: 2default:default2
 00:00:052default:default2
 00:00:062default:default2
-323.8752default:default2
-17.9102default:defaultZ17-268
+323.9142default:default2
+17.9382default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -57,9 +57,9 @@ Starting synthesis...
 310*common2
 	Synthesis2default:default2
 xc7z0202default:defaultZ17-349
-ú
-%s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:15 ; elapsed = 00:02:03 . Memory (MB): peak = 361.875 ; gain = 100.570
+õ
+%s*synth2ã
+wStarting RTL Elaboration : Time (s): cpu = 00:00:58 ; elapsed = 00:01:58 . Memory (MB): peak = 360.242 ; gain = 99.238
 2default:default
 Ô
 synthesizing module '%s'638*oasys2"
@@ -1124,22 +1124,22 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 692default:default8@Z8-638
 ì
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-system_auto_pc_272default:default2ï
-Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v2default:default2
+system_auto_pc_312default:default2ï
+Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/synth/system_auto_pc_31.v2default:default2
 572default:default2
 auto_pc2default:default2%
-system_auto_pc_272default:default2v
+system_auto_pc_312default:default2v
 `C:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/hdl/system.vhd2default:default2
 2522default:default8@Z8-3491
 é
 synthesizing module '%s'638*oasys2%
-system_auto_pc_272default:default2ó
-Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v2default:default2
+system_auto_pc_312default:default2ó
+Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/synth/system_auto_pc_31.v2default:default2
 572default:default8@Z8-638
 Ú
 synthesizing module '%s'638*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2⁄
-√c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+√c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -1244,7 +1244,7 @@ X
 Ã
 synthesizing module '%s'638*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2«
-∞c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+∞c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -1273,7 +1273,7 @@ _
 ﬁ
 synthesizing module '%s'638*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2Œ
-∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -1646,7 +1646,7 @@ a
 Œ
 synthesizing module '%s'638*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -2017,12 +2017,12 @@ a
 "axi_infrastructure_v1_1_axi2vector2default:default2
 92default:default2
 12default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
 ‡
 synthesizing module '%s'638*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2041,12 +2041,12 @@ X
 +axi_register_slice_v2_1_axic_register_slice2default:default2
 102default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2065,12 +2065,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
 102default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2089,12 +2089,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
 102default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2113,12 +2113,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
 102default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 Œ
 synthesizing module '%s'638*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -2489,19 +2489,19 @@ a
 "axi_infrastructure_v1_1_vector2axi2default:default2
 112default:default2
 12default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
 122default:default2
 12default:default2Œ
-∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 ·
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -2514,7 +2514,7 @@ W
 Í
 synthesizing module '%s'638*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2÷
-øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -2535,7 +2535,7 @@ N
 ﬁ
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2–
-πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -2550,12 +2550,12 @@ _
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 132default:default2
 12default:default2–
-πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
 ﬁ
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2–
-πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -2570,19 +2570,19 @@ _
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 142default:default2
 12default:default2–
-πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+πc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 ¶
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 152default:default2
 12default:default2÷
-øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
 ‚
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -2602,26 +2602,26 @@ L
 2default:default
 •
 default block is never used226*oasys2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 162default:default2
 12default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 172default:default2
 12default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
 ‡
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2—
-∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -2670,7 +2670,7 @@ U
 „
 synthesizing module '%s'638*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2705,12 +2705,12 @@ J
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 182default:default2
 12default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 Û
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -2745,19 +2745,19 @@ J
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 182default:default2
 12default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 192default:default2
 12default:default2—
-∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
 ·
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -2770,7 +2770,7 @@ W
 ‚
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -2790,26 +2790,26 @@ $	Parameter SM_DONE bound to: 2'b11
 2default:default
 •
 default block is never used226*oasys2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 202default:default2
 12default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 212default:default2
 12default:default2“
-ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+ªc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
 ‡
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2—
-∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -2846,7 +2846,7 @@ V
 Û
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2881,12 +2881,12 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 212default:default2
 12default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 Û
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -2921,19 +2921,19 @@ M
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 212default:default2
 12default:default2”
-ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+ºc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 222default:default2
 12default:default2—
-∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+∫c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 Ó
 synthesizing module '%s'638*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2Œ
-∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -3306,7 +3306,7 @@ a
 ﬁ
 synthesizing module '%s'638*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -3677,12 +3677,12 @@ a
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
 222default:default2
 12default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3701,12 +3701,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
 222default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3725,12 +3725,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
 222default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3749,12 +3749,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
 222default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -3773,12 +3773,12 @@ X
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
 222default:default2
 12default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 ﬁ
 synthesizing module '%s'638*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -4149,35 +4149,35 @@ a
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
 222default:default2
 12default:default2∆
-Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+Øc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
 222default:default2
 12default:default2Œ
-∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+∑c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 à
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 232default:default2
 12default:default2«
-∞c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+∞c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 Æ
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 242default:default2
 12default:default2⁄
-√c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+√c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
  
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-system_auto_pc_272default:default2
+system_auto_pc_312default:default2
 252default:default2
 12default:default2ó
-Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_27/synth/system_auto_pc_27.v2default:default2
+Äc:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/synth/system_auto_pc_31.v2default:default2
 572default:default8@Z8-256
 Ø
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -4404,7 +4404,7 @@ fC:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/imports
 312default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:01:53 ; elapsed = 00:02:44 . Memory (MB): peak = 415.848 ; gain = 154.543
+xFinished RTL Elaboration : Time (s): cpu = 00:01:36 ; elapsed = 00:02:39 . Memory (MB): peak = 414.797 ; gain = 153.793
 2default:default
 ;
 %s*synth2,
@@ -4543,11 +4543,11 @@ J  A total of 1 instances were transformed.
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:17 ; elapsed = 00:03:10 . Memory (MB): peak = 535.973 ; gain = 274.668
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:59 ; elapsed = 00:03:04 . Memory (MB): peak = 535.535 ; gain = 274.531
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:03:10 . Memory (MB): peak = 535.973 ; gain = 274.668
+yFinished RTL Optimization : Time (s): cpu = 00:01:59 ; elapsed = 00:03:04 . Memory (MB): peak = 535.535 ; gain = 274.531
 2default:default
 ﬂ
 merging register '%s' into '%s'3619*oasys2"
@@ -4698,7 +4698,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:02:41 ; elapsed = 00:03:34 . Memory (MB): peak = 569.742 ; gain = 308.438
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:02:22 ; elapsed = 00:03:28 . Memory (MB): peak = 568.281 ; gain = 307.277
 2default:default
 B
 %s*synth23
@@ -5610,7 +5610,7 @@ B
 2default:default
 =
 %s*synth2.
-Module system_auto_pc_27 
+Module system_auto_pc_31 
 2default:default
 B
 %s*synth23
@@ -5751,6 +5751,126 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 Ã
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
 0\U0/lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[31] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[30] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[29] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[28] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[27] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[26] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[25] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[24] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[23] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[22] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[21] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[20] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[19] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[18] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[17] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[16] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[15] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[14] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[13] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[12] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[11] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+À
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
+/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[10] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[9] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[8] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[7] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[6] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[5] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[4] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[3] 2default:default2&
+system_lab0_ip_0_02default:defaultZ8-3332
+ 
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
+.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[2] 2default:default2&
 system_lab0_ip_0_02default:defaultZ8-3332
 À
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
@@ -6016,126 +6136,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
 /\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[22] 2default:default2&
 system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[21] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[20] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[19] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[18] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[17] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[16] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[15] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[14] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[13] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[12] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[11] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[10] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[9] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[8] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[7] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[6] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[5] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[4] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[3] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[2] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[1] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
- 
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2B
-.\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[0] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
-0\U0/lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2D
-0\U0/lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[31] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[30] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[29] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[28] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
-À
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2C
-/\U0/lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] 2default:default2&
-system_lab0_ip_0_02default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -6146,18 +6146,18 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
 662default:default2
 622default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
 Í
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2default:default2
 662default:default2
 622default:default2œ
-∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_25/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+∏c:/Users/Shivam/Desktop/comp4601/labproduction/lab0/lab0.srcs/sources_1/bd/system/ip/system_auto_pc_31/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:35 . Memory (MB): peak = 575.430 ; gain = 314.125
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:23 ; elapsed = 00:03:28 . Memory (MB): peak = 574.930 ; gain = 313.926
 2default:default
 ¢
 %s*synth2í
@@ -6209,7 +6209,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:02:44 ; elapsed = 00:03:38 . Memory (MB): peak = 591.098 ; gain = 329.793
+zFinished Area Optimization : Time (s): cpu = 00:02:25 ; elapsed = 00:03:31 . Memory (MB): peak = 589.324 ; gain = 328.320
 2default:default
 {
 %s*synth2l
@@ -6217,11 +6217,11 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:46 ; elapsed = 00:03:41 . Memory (MB): peak = 745.594 ; gain = 484.289
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:27 ; elapsed = 00:03:34 . Memory (MB): peak = 744.160 ; gain = 483.156
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:02:47 ; elapsed = 00:03:42 . Memory (MB): peak = 753.207 ; gain = 491.902
+|Finished Timing Optimization : Time (s): cpu = 00:02:28 ; elapsed = 00:03:35 . Memory (MB): peak = 751.883 ; gain = 490.879
 2default:default
 î
 ◊The timing for the instance %s (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
@@ -6229,11 +6229,11 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 \U0/fifo_reg 2default:defaultZ8-4480
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:02:51 ; elapsed = 00:03:46 . Memory (MB): peak = 761.457 ; gain = 500.152
+{Finished Technology Mapping : Time (s): cpu = 00:02:32 ; elapsed = 00:03:39 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 l
 %s*synth2]
-Idesign system_auto_pc_27 has 4 max_fanout violations cannot be satisfied
+Idesign system_auto_pc_31 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -6241,7 +6241,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:02:54 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
+uFinished IO Insertion : Time (s): cpu = 00:02:34 ; elapsed = 00:03:42 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 ;
 %s*synth2,
@@ -6270,11 +6270,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:02:54 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:02:34 ; elapsed = 00:03:42 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:02:55 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:02:35 ; elapsed = 00:03:42 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 ¢
 %s*synth2í
@@ -6400,23 +6400,23 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|6     |LUT2       |    30|
+|6     |LUT2       |    29|
 2default:default
 ?
 %s*synth20
-|7     |LUT3       |   305|
+|7     |LUT3       |   276|
 2default:default
 ?
 %s*synth20
-|8     |LUT4       |    91|
+|8     |LUT4       |    98|
 2default:default
 ?
 %s*synth20
-|9     |LUT5       |   169|
+|9     |LUT5       |   138|
 2default:default
 ?
 %s*synth20
-|10    |LUT6       |   192|
+|10    |LUT6       |   171|
 2default:default
 ?
 %s*synth20
@@ -6444,19 +6444,23 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|17    |FDRE       |   725|
+|17    |FDCE       |    32|
 2default:default
 ?
 %s*synth20
-|18    |FDSE       |    65|
+|18    |FDRE       |   663|
 2default:default
 ?
 %s*synth20
-|19    |IBUF       |     8|
+|19    |FDSE       |    65|
 2default:default
 ?
 %s*synth20
-|20    |OBUF       |     8|
+|20    |IBUF       |     8|
+2default:default
+?
+%s*synth20
+|21    |OBUF       |     8|
 2default:default
 ?
 %s*synth20
@@ -6481,15 +6485,15 @@ q+------+------------------------------------+----------------------------------
 2default:default
 ï
 %s*synth2Ö
-q|1     |top                                 |                                                           |  1989|
+q|1     |top                                 |                                                           |  1884|
 2default:default
 ï
 %s*synth2Ö
-q|2     |  system_i                          |system                                                     |  1973|
+q|2     |  system_i                          |system                                                     |  1868|
 2default:default
 ï
 %s*synth2Ö
-q|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   409|
+q|3     |    lab0_ip_0                       |system_lab0_ip_0_0                                         |   304|
 2default:default
 ï
 %s*synth2Ö
@@ -6505,7 +6509,7 @@ q|6     |    processing_system7_0_axi_periph |system_processing_system7_0_axi_pe
 2default:default
 ï
 %s*synth2Ö
-q|7     |      \s00_couplers/auto_pc         |system_auto_pc_27                                          |  1276|
+q|7     |      \s00_couplers/auto_pc         |system_auto_pc_31                                          |  1276|
 2default:default
 ï
 %s*synth2Ö
@@ -6521,7 +6525,7 @@ q+------+------------------------------------+----------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:02:55 ; elapsed = 00:03:50 . Memory (MB): peak = 761.457 ; gain = 500.152
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:02:35 ; elapsed = 00:03:42 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 j
 %s*synth2[
@@ -6529,7 +6533,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 21 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:02:55 ; elapsed = 00:03:51 . Memory (MB): peak = 761.457 ; gain = 500.152
+Synthesis Optimization Complete : Time (s): cpu = 00:02:35 ; elapsed = 00:03:42 . Memory (MB): peak = 761.730 ; gain = 500.727
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -6577,18 +6581,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:03:172default:default2
-00:03:492default:default2
-946.7852default:default2
-622.9102default:defaultZ17-268
+00:02:552default:default2
+00:03:372default:default2
+946.2462default:default2
+622.3322default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 946.785 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 946.246 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Jul 17 20:41:45 20142default:defaultZ17-206
+Tue Jul 22 21:59:00 20142default:defaultZ17-206

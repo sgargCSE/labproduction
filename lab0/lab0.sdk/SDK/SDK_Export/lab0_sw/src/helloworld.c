@@ -35,6 +35,10 @@
 #include "platform.h"
 #include "xparameters.h"
 
+#define TIMER_STOP 0
+#define TIMER_START 1
+#define TIMER_RESET 2
+
 void print(char *str);
 
 int main() {
@@ -42,18 +46,18 @@ int main() {
 	xil_printf("*********** START *************\r\n");
 
 	/*
-	 * Write values from [10 ... 1009] to the hardware fifo via
+	 * Write values from [0 ... 999] to the hardware fifo via
 	 * the custom IP
 	 */
 	int j = 0;
 	for (j=0;j<1000;j++){
-		Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4, j+10);
+		Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4, j);
 	}
 	/*
 	 * Reads values back from FIFO via the custom IP, and checks
 	 * the value read, and makes sure it is the expected value
 	 */
-	int result = 10;
+	int result = 0;
 	int mistakes = 0;
 	for(j=0;j<1000;j++){
 		int read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+4);
@@ -71,8 +75,8 @@ int main() {
 
 
 	//resets and starts the timer
-	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0xFFFFFFFF);
-	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 1);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, TIMER_RESET | TIMER_STOP);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, TIMER_START);
 
 	int a = 0;
 
@@ -87,7 +91,7 @@ int main() {
 	int t2 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
 
 	//stops the timer
-	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, TIMER_STOP);
 
 	//prints out statistics
 	printf("start cc = %d\r\n",t0);
@@ -110,7 +114,7 @@ int main() {
 
 		int i = 0;
 		/** Through trial and error, loop size > 30,000,000 are noticeable **/
-		for (i=0;i<10000000;i++){
+		for (i=0;i<30000000;i++){
 			//empty loop to kill time, making the process visible to the user
 			swValLast = sw_val;
 		}

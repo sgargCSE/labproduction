@@ -261,7 +261,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>807654468</spirit:value>
+            <spirit:value>2132143393</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -269,7 +269,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Jul 17 10:37:03 UTC 2014</spirit:value>
+            <spirit:value>Tue Jul 22 11:54:30 UTC 2014</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -676,9 +676,9 @@
       <xilinx:taxonomies>
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
-      <xilinx:displayName>lab0_ip_v12_0</xilinx:displayName>
+      <xilinx:displayName>lab0_ip_v13_0</xilinx:displayName>
       <xilinx:coreRevision>3</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-07-17T10:34:45Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2014-07-22T11:49:05Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.4</xilinx:xilinxVersion>

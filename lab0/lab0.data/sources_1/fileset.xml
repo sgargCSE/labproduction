@@ -15,7 +15,7 @@
     <File Path="$PSRCDIR/sources_1/imports/hdl/system_wrapper.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.vhd"/>
-        <Attr Name="ImportTime" Val="1405593320"/>
+        <Attr Name="ImportTime" Val="1406030029"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -39,16 +39,6 @@
     </File>
     <File Path="$PDATADIR/sources_1/ports.xml">
       <FileInfo SFType="PortsDb">
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
-      <FileInfo>
-        <Attr Name="UsedInSynthesis" Val="1"/>
-        <Attr Name="UsedInImplementation" Val="1"/>
-        <Attr Name="UsedInSimulation" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

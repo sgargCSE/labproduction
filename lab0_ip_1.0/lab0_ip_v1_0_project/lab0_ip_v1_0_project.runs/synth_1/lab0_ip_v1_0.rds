@@ -2,8 +2,8 @@
 # Vivado v2013.4
 # SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Thu Jul 17 20:23:53 2014
-# Process ID: 24000
+# Start of session at: Tue Jul 22 21:45:59 2014
+# Process ID: 26008
 # Log file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1/lab0_ip_v1_0.rds
 # Journal file: C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/lab0_ip_v1_0_project/lab0_ip_v1_0_project.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -35,7 +35,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:46 . Memory (MB): peak = 340.230 ; gain = 79.484
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:54 . Memory (MB): peak = 339.680 ; gain = 78.699
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'lab0_ip_v1_0' [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -51,14 +51,14 @@ INFO: [Synth 8-226] default block is never used [C:/Users/Shivam/Desktop/comp460
 INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0_S00_AXI__parameterized0' (1#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0_S00_AXI.vhd:90]
 INFO: [Synth 8-256] done synthesizing module 'lab0_ip_v1_0' (2#1) [C:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd:49]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:56 . Memory (MB): peak = 363.781 ; gain = 102.801
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
 Start RTL Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
+Finished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:57 . Memory (MB): peak = 363.781 ; gain = 102.801
 ---------------------------------------------------------------------------------
 
 
@@ -82,7 +82,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:22 . Memory (MB): peak = 531.328 ; gain = 270.582
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:32 . Memory (MB): peak = 531.406 ; gain = 270.426
 ---------------------------------------------------------------------------------
 
 No constraint files found.
@@ -146,6 +146,36 @@ WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_awadd
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[31] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[30] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[29] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[28] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[27] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[26] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[25] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[24] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[23] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[22] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[21] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[20] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[19] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[18] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[17] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[16] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[15] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[14] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[13] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[12] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[11] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[10] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[9] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[8] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[7] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[6] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[5] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[4] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[3] ) is unused and will be removed from module lab0_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[2] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg1_reg[31] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg1_reg[30] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg1_reg[29] ) is unused and will be removed from module lab0_ip_v1_0.
@@ -212,36 +242,6 @@ WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[24] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[23] ) is unused and will be removed from module lab0_ip_v1_0.
 WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[22] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[21] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[20] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[19] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[18] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[17] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[16] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[15] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[14] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[13] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[12] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[11] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[10] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[9] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[8] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[7] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[6] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[5] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[4] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[3] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[2] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[31] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[30] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[29] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[28] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] ) is unused and will be removed from module lab0_ip_v1_0.
-WARNING: [Synth 8-3332] Sequential element (\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] ) is unused and will be removed from module lab0_ip_v1_0.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_awaddr[1]
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_awaddr[0]
@@ -254,7 +254,7 @@ WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[1]
 WARNING: [Synth 8-3331] design lab0_ip_v1_0 has unconnected port s00_axi_arprot[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:22 . Memory (MB): peak = 537.008 ; gain = 276.262
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:32 . Memory (MB): peak = 537.109 ; gain = 276.129
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -278,7 +278,7 @@ Start Area Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 
@@ -287,7 +287,7 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 
@@ -296,7 +296,7 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4480] The timing for the instance fifo_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 
@@ -321,7 +321,7 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Gated Clock Conversion mode: off
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 
@@ -336,7 +336,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 
@@ -344,7 +344,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -371,32 +371,33 @@ Report Cell Usage:
 |1     |BUFG     |     1|
 |2     |CARRY4   |     9|
 |3     |LUT1     |    35|
-|4     |LUT2     |     8|
+|4     |LUT2     |     7|
 |5     |LUT3     |     6|
 |6     |LUT4     |    11|
-|7     |LUT5     |    64|
-|8     |LUT6     |    70|
+|7     |LUT5     |    31|
+|8     |LUT6     |    57|
 |9     |RAMB36E1 |     1|
-|10    |FDRE     |   131|
-|11    |FDSE     |     2|
-|12    |IBUF     |    55|
-|13    |OBUF     |    49|
+|10    |FDCE     |    32|
+|11    |FDRE     |    69|
+|12    |FDSE     |     2|
+|13    |IBUF     |    52|
+|14    |OBUF     |    49|
 +------+---------+------+
 
 Report Instance Areas: 
 +------+----------------------------+-------------------------------------+------+
 |      |Instance                    |Module                               |Cells |
 +------+----------------------------+-------------------------------------+------+
-|1     |top                         |                                     |   442|
-|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   220|
+|1     |top                         |                                     |   362|
+|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   145|
 +------+----------------------------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:01:34 . Memory (MB): peak = 550.789 ; gain = 289.809
 ---------------------------------------------------------------------------------
 
-Synthesis finished with 0 errors, 0 critical warnings and 134 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
-INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+Synthesis finished with 0 errors, 0 critical warnings and 194 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:01:34 . Memory (MB): peak = 550.789 ; gain = 289.809
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
@@ -408,9 +409,9 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 17 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:22 . Memory (MB): peak = 770.953 ; gain = 465.352
+synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:29 . Memory (MB): peak = 770.156 ; gain = 464.449
 # write_checkpoint lab0_ip_v1_0.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file lab0_ip_v1_0_utilization_synth.rpt -pb lab0_ip_v1_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 770.953 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 17 20:25:49 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 770.156 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 22 21:48:06 2014...

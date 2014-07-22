@@ -148,18 +148,22 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
     
    --Timer implementation, instead of snooping on the reads it simply
    --uses the register values
-    process(clk)
+    process(clk,dataout0)
     begin
-        if (rising_edge(clk)) then
-            if (dataout0 = X"00000001") then
-                timer32 <= timer32 + X"00000001";
-            elsif (dataout0 = X"FFFFFFFF") then
-                timer32 <= (others=>'0');
+        if (dataout0(1) = '1') then
+            --"asynchronous" reset
+            timer32 <= (others=>'0');
+        else
+            if (rising_edge(clk)) then
+                if (dataout0(0) = '1') then
+                    timer32 <= timer32 + X"00000001";
+                end if;
             end if;
         end if;
     end process;
     datain0 <= timer32;
-    --TODO: Fix these later, once GPIO/BRAM implemented
+    
+    --TODO: Fix these later, once BRAM implemented
     datain3 <= X"00000100";
     
     led_out <= dataout2(7 downto 0);
@@ -208,5 +212,4 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
     
     datain1 <= fifo_data when valid_fifo_data = '1' else    
                X"FFFFFFFF"; -- Output a -1 when invalid read. (assumes no negative numbers in fifo)
-    
 end arch_imp;

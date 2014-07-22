@@ -40,7 +40,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:46 . Memory (MB): peak = 340.230 ; gain = 79.484
+rStarting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:54 . Memory (MB): peak = 339.680 ; gain = 78.699
 2default:default
 ÷
 synthesizing module '%s'638*oasys2 
@@ -109,11 +109,11 @@ OC:/Users/Shivam/Desktop/comp4601/labproduction/lab0_ip_1.0/hdl/lab0_ip_v1_0.vhd
 492default:default8@Z8-256
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
+sFinished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:56 . Memory (MB): peak = 363.781 ; gain = 102.801
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:48 . Memory (MB): peak = 364.336 ; gain = 103.590
+yFinished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:57 . Memory (MB): peak = 363.781 ; gain = 102.801
 2default:default
 <
 %s*synth2-
@@ -168,7 +168,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:22 . Memory (MB): peak = 531.328 ; gain = 270.582
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:32 . Memory (MB): peak = 531.406 ; gain = 270.426
 2default:default
 B
 %s*synth23
@@ -329,6 +329,126 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 √
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2A
 -\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[31] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[30] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[29] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[28] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[27] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[26] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[25] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[24] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[23] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[22] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[21] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[20] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[19] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[18] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[17] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[16] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[15] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[14] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[13] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[12] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[11] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¬
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
+,\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[10] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[9] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[8] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[7] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[6] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[5] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[4] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[3] 2default:default2 
+lab0_ip_v1_02default:defaultZ8-3332
+¡
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
++\lab0_ip_v1_0_S00_AXI_inst/slv_reg0_reg[2] 2default:default2 
 lab0_ip_v1_02default:defaultZ8-3332
 ¬
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
@@ -594,126 +714,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
 ,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[22] 2default:default2 
 lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[21] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[20] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[19] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[18] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[17] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[16] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[15] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[14] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[13] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[12] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[11] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[10] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[9] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[8] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[7] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[6] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[5] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[4] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[3] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[2] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[1] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¡
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
-+\lab0_ip_v1_0_S00_AXI_inst/slv_reg3_reg[0] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-√
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2A
--\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[1] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-√
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2A
--\lab0_ip_v1_0_S00_AXI_inst/axi_araddr_reg[0] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[31] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[30] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[29] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[28] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[27] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
-¬
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2@
-,\lab0_ip_v1_0_S00_AXI_inst/slv_reg2_reg[26] 2default:default2 
-lab0_ip_v1_02default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -761,7 +761,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:22 . Memory (MB): peak = 537.008 ; gain = 276.262
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:32 . Memory (MB): peak = 537.109 ; gain = 276.129
 2default:default
 ¢
 %s*synth2í
@@ -813,11 +813,11 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+zFinished Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+|Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 è
 ◊The timing for the instance %s (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
@@ -825,7 +825,7 @@ zFinished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Me
 fifo_reg2default:defaultZ8-4480
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 550.840 ; gain = 290.094
+{Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 D
 %s*synth25
@@ -833,7 +833,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+uFinished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 ;
 %s*synth2,
@@ -862,11 +862,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:01:33 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 ¢
 %s*synth2í
@@ -938,7 +938,7 @@ Report Cell Usage:
 2default:default
 =
 %s*synth2.
-|4     |LUT2     |     8|
+|4     |LUT2     |     7|
 2default:default
 =
 %s*synth2.
@@ -950,11 +950,11 @@ Report Cell Usage:
 2default:default
 =
 %s*synth2.
-|7     |LUT5     |    64|
+|7     |LUT5     |    31|
 2default:default
 =
 %s*synth2.
-|8     |LUT6     |    70|
+|8     |LUT6     |    57|
 2default:default
 =
 %s*synth2.
@@ -962,19 +962,23 @@ Report Cell Usage:
 2default:default
 =
 %s*synth2.
-|10    |FDRE     |   131|
+|10    |FDCE     |    32|
 2default:default
 =
 %s*synth2.
-|11    |FDSE     |     2|
+|11    |FDRE     |    69|
 2default:default
 =
 %s*synth2.
-|12    |IBUF     |    55|
+|12    |FDSE     |     2|
 2default:default
 =
 %s*synth2.
-|13    |OBUF     |    49|
+|13    |IBUF     |    52|
+2default:default
+=
+%s*synth2.
+|14    |OBUF     |    49|
 2default:default
 =
 %s*synth2.
@@ -999,11 +1003,11 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 v
 %s*synth2g
-S|1     |top                         |                                     |   442|
+S|1     |top                         |                                     |   362|
 2default:default
 v
 %s*synth2g
-S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   220|
+S|2     |  lab0_ip_v1_0_S00_AXI_inst |lab0_ip_v1_0_S00_AXI__parameterized0 |   145|
 2default:default
 v
 %s*synth2g
@@ -1011,20 +1015,20 @@ S+------+----------------------------+-------------------------------------+----
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:01:34 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 k
 %s*synth2\
-HSynthesis finished with 0 errors, 0 critical warnings and 134 warnings.
+HSynthesis finished with 0 errors, 0 critical warnings and 194 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 550.840 ; gain = 290.094
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:01:34 . Memory (MB): peak = 550.789 ; gain = 289.809
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-562default:defaultZ29-17
+532default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1066,18 +1070,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:01:092default:default2
-00:01:222default:default2
-770.9532default:default2
-465.3522default:defaultZ17-268
+00:01:082default:default2
+00:01:292default:default2
+770.1562default:default2
+464.4492default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 770.953 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 770.156 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Jul 17 20:25:49 20142default:defaultZ17-206
+Tue Jul 22 21:48:06 20142default:defaultZ17-206

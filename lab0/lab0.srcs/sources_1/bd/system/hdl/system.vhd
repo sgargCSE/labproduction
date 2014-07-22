@@ -67,7 +67,7 @@ entity s00_couplers_imp_156Q4UY is
 end s00_couplers_imp_156Q4UY;
 
 architecture STRUCTURE of s00_couplers_imp_156Q4UY is
-  component system_auto_pc_27 is
+  component system_auto_pc_31 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -129,7 +129,7 @@ architecture STRUCTURE of s00_couplers_imp_156Q4UY is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component system_auto_pc_27;
+  end component system_auto_pc_31;
   signal S_ACLK_1 : STD_LOGIC;
   signal S_ARESETN_1 : STD_LOGIC_VECTOR ( 0 to 0 );
   signal auto_pc_to_s00_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -249,7 +249,7 @@ begin
   s00_couplers_to_auto_pc_WLAST <= S_AXI_wlast;
   s00_couplers_to_auto_pc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   s00_couplers_to_auto_pc_WVALID <= S_AXI_wvalid;
-auto_pc: component system_auto_pc_27
+auto_pc: component system_auto_pc_31
     port map (
       aclk => S_ACLK_1,
       aresetn => S_ARESETN_1(0),

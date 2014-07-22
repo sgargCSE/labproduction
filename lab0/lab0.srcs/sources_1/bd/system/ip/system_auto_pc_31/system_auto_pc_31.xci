@@ -6,7 +6,7 @@
   <spirit:version>1.0</spirit:version>
   <spirit:componentInstances>
     <spirit:componentInstance>
-      <spirit:instanceName>system_auto_pc_27</spirit:instanceName>
+      <spirit:instanceName>system_auto_pc_31</spirit:instanceName>
       <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="axi_protocol_converter" spirit:version="2.1"/>
       <spirit:configurableElementValues>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.SI_PROTOCOL">AXI3</spirit:configurableElementValue>
@@ -21,7 +21,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.RUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.WUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.BUSER_WIDTH">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">system_auto_pc_27</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">system_auto_pc_31</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_FAMILY">zynq</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_PROTOCOL">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_PROTOCOL">1</spirit:configurableElementValue>

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (win32) Build 353583 Mon Dec  9 17:38:55 MST 2013
-| Date         : Thu Jul 17 20:41:44 2014
+| Date         : Tue Jul 22 21:59:00 2014
 | Host         : Shivam-Win8 running 64-bit major release  (build 7600)
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Loced | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                |  819 |     0 |     53200 |  1.53 |
-|   LUT as Logic             |  749 |     0 |     53200 |  1.40 |
+| Slice LUTs*                |  750 |     0 |     53200 |  1.40 |
+|   LUT as Logic             |  680 |     0 |     53200 |  1.27 |
 |   LUT as Memory            |   70 |     0 |     17400 |  0.40 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |   70 |     0 |           |       |
-| Slice Registers            |  790 |     0 |    106400 |  0.74 |
-|   Register as Flip Flop    |  790 |     0 |    106400 |  0.74 |
+| Slice Registers            |  760 |     0 |    106400 |  0.71 |
+|   Register as Flip Flop    |  760 |     0 |    106400 |  0.71 |
 |   Register as Latch        |    0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |    0 |     0 |     26600 |  0.00 |
 | F8 Muxes                   |    0 |     0 |     13300 |  0.00 |
@@ -131,16 +131,17 @@ Table of Contents
 +----------+------+
 | Ref Name | Used |
 +----------+------+
-| FDRE     |  725 |
-| LUT3     |  305 |
-| LUT6     |  192 |
-| LUT5     |  169 |
+| FDRE     |  663 |
+| LUT3     |  276 |
+| LUT6     |  171 |
 | LUT1     |  164 |
+| LUT5     |  138 |
 | BIBUF    |  130 |
-| LUT4     |   91 |
+| LUT4     |   98 |
 | FDSE     |   65 |
 | SRLC32E  |   47 |
-| LUT2     |   30 |
+| FDCE     |   32 |
+| LUT2     |   29 |
 | CARRY4   |   27 |
 | SRL16E   |   23 |
 | OBUF     |    8 |
