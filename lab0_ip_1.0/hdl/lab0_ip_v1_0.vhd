@@ -208,5 +208,4 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
     
     datain1 <= fifo_data when valid_fifo_data = '1' else    
                X"FFFFFFFF"; -- Output a -1 when invalid read. (assumes no negative numbers in fifo)
-    
 end arch_imp;
