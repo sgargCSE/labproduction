@@ -126,7 +126,7 @@ lab0_ip_v1_0_S00_AXI_inst : lab0_ip_v1_0_S00_AXI
         S_AXI_RDATA   => s00_axi_rdata,
         S_AXI_RRESP   => s00_axi_rresp,
         S_AXI_RVALID   => newRead, --s00_axi_rvalid,
-        S_AXI_RREADY   => s00_axi_rready, --newRead
+        S_AXI_RREADY   => s00_axi_rready,
         datain0         => datain0,
         datain1         => datain1,
         datain2         => datain2,
