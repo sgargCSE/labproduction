@@ -6,7 +6,9 @@
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="lab0_ip_v1_0_S00_AXI"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="SimMode" Val="post-synthesis"/>
       <Option Name="SrcSet" Val="sources_1"/>
+      <Option Name="NLNetlistMode" Val="funcsim"/>
     </Config>
   </FileSet>
 </DARoots>

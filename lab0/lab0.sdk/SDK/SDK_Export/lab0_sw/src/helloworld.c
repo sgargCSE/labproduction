@@ -34,15 +34,40 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xparameters.h"
+#include <xil_io.h>
 
 #define TIMER_STOP 0
 #define TIMER_START 1
 #define TIMER_RESET 2
 
-void print(char *str);
-
 int main() {
 	init_platform();
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR, 0x1);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0x4, 0x2);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0x8, 0x990);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0xC, 0x100);
+
+	u32 r0,r1,r2,r3;
+	r0 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR);
+	r1 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0x4);
+	r2 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0x8);
+	r3 = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR+0xC);
+
+	xil_printf("Values read = %0X, %0X, %0X, %0X\r\n",r0,r1,r2,r3);
+
+	s32  rr;
+
+
+
+
+
+
+
+
+
+
+
+
 	xil_printf("*********** START *************\r\n");
 
 	/*
@@ -121,4 +146,15 @@ int main() {
 	}
 
 	return 0;
+}
+
+void writeToBRAM(u16 addr, s16 data){
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, addr);
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, (1u << 31) | data);
+}
+
+u16 readFromBRAM(u16 addr){
+	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, addr);
+	u32 read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC);
+	return (u16) read;
 }
