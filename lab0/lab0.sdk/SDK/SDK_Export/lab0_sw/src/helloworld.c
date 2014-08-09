@@ -148,13 +148,15 @@ int main() {
 	return 0;
 }
 
+
 void writeToBRAM(u16 addr, s16 data){
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, addr);
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, (1u << 31) | data);
 }
 
-u16 readFromBRAM(u16 addr){
+s16 readFromBRAM(u16 addr){
 	Xil_Out32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC, addr);
 	u32 read = Xil_In32(XPAR_LAB0_IP_0_S00_AXI_BASEADDR + 0xC);
-	return (u16) read;
+	s16 readData = (s16) (0xFFFF & read);
+	return readData;
 }
